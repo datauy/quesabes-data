@@ -1,0 +1,26 @@
+ Schema |             Name              | Type  |  Owner   
+--------+-------------------------------+-------+----------
+ public | acts_as_xapian_jobs           | table | foi_user
+ public | censor_rules                  | table | foi_user
+ public | comments                      | table | foi_user
+ public | exim_log_dones                | table | foi_user
+ public | exim_logs                     | table | foi_user
+ public | foi_attachments               | table | foi_user
+ public | has_tag_string_tags           | table | foi_user
+ public | holidays                      | table | foi_user
+ public | incoming_messages             | table | foi_user
+ public | info_request_events           | table | foi_user
+ public | info_requests                 | table | foi_user
+ public | outgoing_messages             | table | foi_user
+ public | post_redirects                | table | foi_user
+ public | profile_photos                | table | foi_user
+ public | public_bodies                 | table | foi_user
+ public | public_body_translations      | table | foi_user
+ public | public_body_versions          | table | foi_user
+ public | purge_requests                | table | foi_user
+ public | raw_emails                    | table | foi_user
+ public | schema_migrations             | table | foi_user
+ public | track_things                  | table | foi_user
+ public | track_things_sent_emails      | table | foi_user
+ public | user_info_request_sent_alerts | table | foi_user
+ public | users                         | table | foi_user
