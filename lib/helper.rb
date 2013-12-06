@@ -8,8 +8,23 @@ end
 ## estadisticas
 
 ## pedidos
-def get_pedidos
-	pass
+#    titulo, descripcion, fecha de realizado, organismo, estado, url
+# info_requests
+#    title, ..., created_at, public_body_id, described_state, url_title
+# url will be http://quesabes.org/request/"url_title"
+def get_info_requests(conn)
+	sql_query = "SELECT info_requests.title, info_requests.created_at, info_requests.described_state, info_requests.url_title, 
+	public_bodies.name
+	FROM info_requests
+	LEFT JOIN public_bodies
+	ON info_requests.public_body_id = public_bodies.id;"
+	# for the body on the outgoing message : select body from outgoing_messages where info_request_id=id;
+	info_requests = conn.exec(sql_query).to_a
+
+	return {
+		"pedidos"  => info_requests,
+		"base_url" => "http://www.quesabes.org/request/"
+	}
 end
 
 ## public bodies
@@ -29,9 +44,10 @@ def write_to_disk(data, output_path)
 end
 
 def write_csv(data, output_path)
+	key = data.keys.first
 	CSV.open(output_path, "wb") do |csv|
-		csv << data['organismos'].first.keys
-		data['organismos'].each do |org|
+		csv << data[key].first.keys
+		data[key].each do |org|
 		  csv << org.values
   	    end
 	end
