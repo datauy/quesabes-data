@@ -6,6 +6,24 @@ def connect_to_db
 end
 
 ## estadisticas
+#                  organismo, cantidad_pedidos, estado  <--- donde
+#tenemos cantidad de pedidos por clasificacion (rechazado, esperando,
+#aceptado)
+def get_requests_per_public_body(conn)
+
+    sql_query = "SELECT public_bodies.name as organismo, count(info_requests.described_state) as cantidad_pedidos, info_requests.described_state as estado
+    FROM info_requests 
+    RIGHT JOIN public_bodies
+	ON public_bodies.id = info_requests.public_body_id
+	GROUP BY public_bodies.name, info_requests.described_state;"
+
+	info_requests_per_public_body = conn.exec(sql_query).to_a
+ 
+ 	return {
+ 		"cantidad_pedidos_per_organismo" => info_requests_per_public_body
+ 	}
+end
+
 
 ## pedidos
 #    titulo, descripcion, fecha de realizado, organismo, estado, url
