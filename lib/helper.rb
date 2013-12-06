@@ -13,8 +13,8 @@ end
 #    title, ..., created_at, public_body_id, described_state, url_title
 # url will be http://quesabes.org/request/"url_title"
 def get_info_requests(conn)
-	sql_query = "SELECT info_requests.title, info_requests.created_at, info_requests.described_state, info_requests.url_title, 
-	public_bodies.name
+	sql_query = "SELECT info_requests.title as pedido, info_requests.created_at as fecha_de_realizado, 
+	info_requests.described_state as estado, info_requests.url_title as titulo_url, public_bodies.name as organismo
 	FROM info_requests
 	LEFT JOIN public_bodies
 	ON info_requests.public_body_id = public_bodies.id;"
@@ -32,7 +32,7 @@ end
 # public_bodies
 #    name, short_name, request_email, home_page
 def get_public_bodies(conn)
-	public_bodies = conn.exec( "SELECT name, short_name, request_email, home_page FROM public_bodies" ).to_a
+	public_bodies = conn.exec( "SELECT name as nombre, short_name as nombre_corto, request_email as correo, home_page as web FROM public_bodies" ).to_a
     return {
     	'organismos' => public_bodies
     }	

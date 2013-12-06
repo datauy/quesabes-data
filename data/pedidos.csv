@@ -1,4 +1,4 @@
-title,created_at,described_state,url_title,name
+pedido,fecha_de_realizado,estado,titulo_url,organismo
 Solicitud de informacion Copia de Convenio,2012-09-28 16:38:13.099545,partially_successful,solicitud_de_informacion_copia_d,"Ministerio de Industria, Energia  Mineria"
 Reparacion de veredas,2012-10-03 17:46:29.719339,waiting_response,reparacion_de_veredas,Intendencia Municipal Montevideo
 Multas Inspectores de tránsito,2012-10-03 23:44:21.758481,rejected,multas_inspectores_de_trnsito,Intendencia Municipal Montevideo
