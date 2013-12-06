@@ -7,4 +7,4 @@ conn = connect_to_db()
 
 # public_bodies = [ {name, short_name, request_email, home_page} ] 
 public_bodies = get_public_bodies(conn)
-write_to_json(public_bodies, 'data/public_bodies.json')
+write_to_disk(public_bodies, 'data/organismos_publicos')
