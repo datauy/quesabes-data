@@ -17,13 +17,23 @@ def get_requests_per_public_body(conn)
 	ON public_bodies.id = info_requests.public_body_id
 	GROUP BY public_bodies.name, info_requests.described_state;"
 
-	info_requests_per_public_body = conn.exec(sql_query).to_a
+	info_requests_per_public_body = renombar_estados(conn.exec(sql_query).to_a)
  
  	return {
  		"cantidad_pedidos_per_organismo" => info_requests_per_public_body
  	}
 end
 
+def renombar_estados(pedidos)
+	estados = {'waiting_response' => 'esperando_respuesta', 'successful' => 'exitoso', 'gone_postal' => 'por_correo', 
+		'partially_successful' => 'parcialmente_exitoso', 'rejected' => 'rechazado', 'not_held' => 'no_retenido', 
+		'user_withdrawn' => 'terminado_por_usuario', 'internal_review' => 'revision_interna'}
+	pedidos.each do |pedido|
+		pedido['estado'] = estados[pedido['estado']]
+	end
+
+ 	return pedidos.sort_by{|p| p["organismo"]}
+end
 
 ## pedidos
 #    titulo, descripcion, fecha de realizado, organismo, estado, url
