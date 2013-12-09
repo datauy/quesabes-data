@@ -17,14 +17,14 @@ def get_requests_per_public_body(conn)
 	ON public_bodies.id = info_requests.public_body_id
 	GROUP BY public_bodies.name, info_requests.described_state;"
 
-	info_requests_per_public_body = renombar_estados(conn.exec(sql_query).to_a)
+	info_requests_per_public_body = renombrar_estados(conn.exec(sql_query).to_a)
  
  	return {
  		"cantidad_pedidos_per_organismo" => info_requests_per_public_body
  	}
 end
 
-def renombar_estados(pedidos)
+def renombrar_estados(pedidos)
 	estados = {'waiting_response' => 'esperando_respuesta', 'successful' => 'exitoso', 'gone_postal' => 'por_correo', 
 		'partially_successful' => 'parcialmente_exitoso', 'rejected' => 'rechazado', 'not_held' => 'no_retenido', 
 		'user_withdrawn' => 'terminado_por_usuario', 'internal_review' => 'revision_interna'}
@@ -47,7 +47,7 @@ def get_info_requests(conn)
 	LEFT JOIN public_bodies
 	ON info_requests.public_body_id = public_bodies.id;"
 	# for the body on the outgoing message : select body from outgoing_messages where info_request_id=id;
-	info_requests = conn.exec(sql_query).to_a
+	info_requests = renombrar_estados(conn.exec(sql_query).to_a)
 
 	return {
 		"pedidos"  => info_requests,
