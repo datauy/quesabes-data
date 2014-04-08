@@ -1,12 +1,12 @@
 organismo,cantidad_pedidos,estado
-ANTEL,2,rechazado
-ANTEL,1,parcialmente_exitoso
 ANTEL,1,esperando_respuesta
+ANTEL,1,parcialmente_exitoso
+ANTEL,2,rechazado
+"Administracion Nacional de Combustible, Alcoholes y Portland",4,esperando_respuesta
 "Administracion Nacional de Combustible, Alcoholes y Portland",6,exitoso
 "Administracion Nacional de Combustible, Alcoholes y Portland",1,parcialmente_exitoso
-"Administracion Nacional de Combustible, Alcoholes y Portland",4,esperando_respuesta
-Administración Nacional de Educación Pública,1,revision_interna
 Administración Nacional de Educación Pública,2,rechazado
+Administración Nacional de Educación Pública,1,revision_interna
 Administración Nacional de Usinas y Trasmisiones Eléctricas,1,rechazado
 Administración Nacional de Usinas y Trasmisiones Eléctricas,1,esperando_respuesta
 Agencia Reguladora de Radio Difusión,0,
@@ -29,21 +29,21 @@ Consulado de Uruguay en Sydney,0,
 Contaduria General de la Nacion,1,no_retenido
 Corporacion Nacional para el Desarrollo,0,
 Corte Electoral,2,rechazado
-DATA,1,no_retenido
-DATA,1,por_correo
 DATA,1,exitoso
+DATA,1,por_correo
+DATA,1,no_retenido
 Defensa del Consumidor,1,esperando_respuesta
 Defensa del Consumidor,1,revision_interna
 Direccion Contralor de Semovientes,2,esperando_respuesta
 Direccion General de Impositiva,0,
-Direccion Nacional de Aduanas,1,esperando_respuesta
 Direccion Nacional de Aduanas,1,revision_interna
 Direccion Nacional de Aduanas,1,exitoso
+Direccion Nacional de Aduanas,1,esperando_respuesta
 Direccion Nacional de Bomberos,1,parcialmente_exitoso
 Direccion Nacional de Casinos,0,
-Direccion Nacional de Catastro,1,revision_interna
-Direccion Nacional de Catastro,1,esperando_respuesta
 Direccion Nacional de Catastro,1,por_correo
+Direccion Nacional de Catastro,1,esperando_respuesta
+Direccion Nacional de Catastro,1,revision_interna
 Direccion Nacional de Industria,0,
 Direccion Nacional de Mineria,0,
 Direccion Nacional de Policia Caminera,0,
@@ -52,9 +52,9 @@ Dirección Nacional Arquitectura,1,no_retenido
 Dirección Nacional Cultura Científica,0,
 Dirección Nacional de Deporte,1,rechazado
 Dirección Nacional de Energía,1,esperando_respuesta
-Dirección Nacional de Hidrografía,2,esperando_respuesta
-Dirección Nacional de Hidrografía,2,rechazado
 Dirección Nacional de Hidrografía,1,no_retenido
+Dirección Nacional de Hidrografía,2,rechazado
+Dirección Nacional de Hidrografía,2,esperando_respuesta
 Dirección Nacional de Propiedad Industrial,0,
 Dirección Nacional de Telecomunicaciones,0,
 Dirección Nacional de Topografía,1,
@@ -70,25 +70,25 @@ Fuerza Aerea,1,rechazado
 Gobierno Ministerio del Interior Direccion Nacional de Identificacion Civil,1,no_retenido
 Instituto Nacional de Estadistica,8,exitoso
 Instituto Nacional de Estadistica,1,rechazado
-Instituto Nacional de Estadistica,1,parcialmente_exitoso
 Instituto Nacional de Estadistica,1,no_retenido
-Instituto Nacional del Nino y el Adolescente del Uruguay,1,esperando_respuesta
+Instituto Nacional de Estadistica,1,parcialmente_exitoso
 Instituto Nacional del Nino y el Adolescente del Uruguay,2,rechazado
+Instituto Nacional del Nino y el Adolescente del Uruguay,1,esperando_respuesta
 Instituto de Investigaciones Biológicas Clemente Estable,0,
-Intendencia Municipal Montevideo,1,terminado_por_usuario
+Intendencia Municipal Montevideo,2,
+Intendencia Municipal Montevideo,6,exitoso
 Intendencia Municipal Montevideo,2,esperando_respuesta
-Intendencia Municipal Montevideo,1,revision_interna
 Intendencia Municipal Montevideo,3,no_retenido
+Intendencia Municipal Montevideo,1,revision_interna
+Intendencia Municipal Montevideo,1,terminado_por_usuario
+Intendencia Municipal Montevideo,4,parcialmente_exitoso
 Intendencia Municipal Montevideo,6,rechazado
 Intendencia Municipal Montevideo,6,por_correo
-Intendencia Municipal Montevideo,6,exitoso
-Intendencia Municipal Montevideo,2,
-Intendencia Municipal Montevideo,4,parcialmente_exitoso
-Intendencia de Canelones,1,rechazado
-Intendencia de Canelones,9,revision_interna
-Intendencia de Canelones,1,por_correo
-Intendencia de Canelones,1,exitoso
 Intendencia de Canelones,1,
+Intendencia de Canelones,9,revision_interna
+Intendencia de Canelones,1,exitoso
+Intendencia de Canelones,1,rechazado
+Intendencia de Canelones,1,por_correo
 Intendencia de Maldonado,1,esperando_respuesta
 Internal admin authority,1,esperando_respuesta
 Junta Departamental de Montevideo,1,exitoso
@@ -104,66 +104,66 @@ Ministerio de Desarrollo Social,3,exitoso
 Ministerio de Economia y Finanzas,1,por_correo
 Ministerio de Economia y Finanzas,1,exitoso
 Ministerio de Economia y Finanzas,1,terminado_por_usuario
-Ministerio de Educación y Cultura,1,parcialmente_exitoso
-Ministerio de Educación y Cultura,2,esperando_respuesta
 Ministerio de Educación y Cultura,1,por_correo
-Ministerio de Educación y Cultura,4,rechazado
+Ministerio de Educación y Cultura,2,esperando_respuesta
 Ministerio de Educación y Cultura,3,revision_interna
-Ministerio de Ganaderia Agricultura y Pesca,1,no_retenido
-Ministerio de Ganaderia Agricultura y Pesca,1,exitoso
+Ministerio de Educación y Cultura,4,rechazado
+Ministerio de Educación y Cultura,1,parcialmente_exitoso
 Ministerio de Ganaderia Agricultura y Pesca,1,terminado_por_usuario
+Ministerio de Ganaderia Agricultura y Pesca,1,exitoso
 Ministerio de Ganaderia Agricultura y Pesca,1,esperando_respuesta
+Ministerio de Ganaderia Agricultura y Pesca,1,no_retenido
 Ministerio de Ganaderia Agricultura y Pesca,2,rechazado
-"Ministerio de Industria, Energia  Mineria",1,parcialmente_exitoso
 "Ministerio de Industria, Energia  Mineria",1,esperando_respuesta
-"Ministerio de Industria, Energia  Mineria",1,exitoso
 "Ministerio de Industria, Energia  Mineria",1,no_retenido
+"Ministerio de Industria, Energia  Mineria",1,exitoso
+"Ministerio de Industria, Energia  Mineria",1,parcialmente_exitoso
 Ministerio de Relaciones Exteiores,1,revision_interna
 Ministerio de Relaciones Exteiores,1,por_correo
-Ministerio de Salud Publica,4,revision_interna
 Ministerio de Salud Publica,8,rechazado
+Ministerio de Salud Publica,4,revision_interna
 Ministerio de Salud Publica,7,esperando_respuesta
 Ministerio de Trabajo y Seguridad Social,2,revision_interna
-Ministerio de Trabajo y Seguridad Social,1,por_correo
 Ministerio de Trabajo y Seguridad Social,3,rechazado
 Ministerio de Trabajo y Seguridad Social,1,esperando_respuesta
-Ministerio de Transporte y Obras Públicas,1,no_retenido
-Ministerio de Transporte y Obras Públicas,5,esperando_respuesta
+Ministerio de Trabajo y Seguridad Social,1,por_correo
 Ministerio de Transporte y Obras Públicas,1,revision_interna
-Ministerio de Transporte y Obras Públicas,2,rechazado
+Ministerio de Transporte y Obras Públicas,1,no_retenido
 Ministerio de Transporte y Obras Públicas,1,exitoso
+Ministerio de Transporte y Obras Públicas,5,esperando_respuesta
+Ministerio de Transporte y Obras Públicas,2,rechazado
 Ministerio de Turismo y Deporte,3,esperando_respuesta
 Ministerio de Turismo y Deporte,1,terminado_por_usuario
 Ministerio de Turismo y Deporte,3,rechazado
 Ministerio de Turismo y Deporte,2,revision_interna
-Ministerio de Vivienda Ordenamiento Territorial y Medio Ambiente,1,no_retenido
-Ministerio de Vivienda Ordenamiento Territorial y Medio Ambiente,2,exitoso
-Ministerio de Vivienda Ordenamiento Territorial y Medio Ambiente,1,parcialmente_exitoso
+Ministerio de Vivienda Ordenamiento Territorial y Medio Ambiente,1,terminado_por_usuario
 Ministerio de Vivienda Ordenamiento Territorial y Medio Ambiente,5,rechazado
 Ministerio de Vivienda Ordenamiento Territorial y Medio Ambiente,1,revision_interna
 Ministerio de Vivienda Ordenamiento Territorial y Medio Ambiente,7,esperando_respuesta
-Ministerio de Vivienda Ordenamiento Territorial y Medio Ambiente,1,terminado_por_usuario
+Ministerio de Vivienda Ordenamiento Territorial y Medio Ambiente,1,parcialmente_exitoso
+Ministerio de Vivienda Ordenamiento Territorial y Medio Ambiente,1,no_retenido
+Ministerio de Vivienda Ordenamiento Territorial y Medio Ambiente,2,exitoso
+Ministerio del Interior,1,parcialmente_exitoso
 Ministerio del Interior,6,esperando_respuesta
 Ministerio del Interior,1,rechazado
 Ministerio del Interior,9,revision_interna
-Ministerio del Interior,1,parcialmente_exitoso
 Ministerio del Interior,1,exitoso
 Museo Nacional de Artes Visuales,0,
+Obras Sanitarias del Estado,1,rechazado
 Obras Sanitarias del Estado,1,terminado_por_usuario
 Obras Sanitarias del Estado,1,esperando_respuesta
-Obras Sanitarias del Estado,1,rechazado
 Obras Sanitarias del Estado,1,exitoso
 Oficina Nacional del Servicio Civil,3,rechazado
 Oficina Nacional del Servicio Civil,2,no_retenido
-Oficina de Planeamiento y Presupuesto,1,
 Oficina de Planeamiento y Presupuesto,1,revision_interna
 Oficina de Planeamiento y Presupuesto,1,rechazado
+Oficina de Planeamiento y Presupuesto,1,
 Oficina de Planeamiento y Presupuesto,1,parcialmente_exitoso
 Pluna Ente Autonomo,1,por_correo
-Presidencia,1,terminado_por_usuario
 Presidencia,2,rechazado
-Presidencia,2,revision_interna
 Presidencia,1,parcialmente_exitoso
+Presidencia,1,terminado_por_usuario
+Presidencia,2,revision_interna
 Presidencia,2,exitoso
 SODRE,1,rechazado
 Sanidad Policial,0,
@@ -175,8 +175,8 @@ Tribunal de Cuentas,1,rechazado
 Unidad Nacional de Seguridad Vial,1,esperando_respuesta
 Unidad Nacional de Seguridad Vial,1,exitoso
 Unidad Reguladora de Energia y Agua,1,revision_interna
-Unidad Reguladora de Servicios de Comunicaciones,1,exitoso
 Unidad Reguladora de Servicios de Comunicaciones,1,revision_interna
+Unidad Reguladora de Servicios de Comunicaciones,1,exitoso
 Unidad Reguladora y de Control de Datos Personales,0,
 Unidad de Acceso a la Información Pública,1,no_retenido
 Unidad de Acceso a la Información Pública,3,exitoso
