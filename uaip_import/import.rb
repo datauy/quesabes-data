@@ -20,7 +20,13 @@ SECRETARYSHIPS = {
 
 require 'csv'
 
-csv = CSV.foreach('responsables-a-julio-2015.csv', :encoding => 'ISO-8859-3', :headers => true, :col_sep => ';') do |row|
+def String.titleize
+  self.tr('ÁÉÍÓÚ', 'áéíóú').split(' ').map(&:capitalize).join(' ')
+end
+
+updated_bodies = {}
+new_bodies = {}
+csv = CSV.foreach('../quesabes-data/uaip_import/responsables-a-julio-2015.csv', :encoding => 'ISO-8859-3', :headers => true, :col_sep => ';') do |row|
   full_body_name = row[BODY_NAME_COLUMN].to_s.strip.encode('UTF-8')
   email = row[EMAIL_COLUMN].to_s.strip.encode('UTF-8')
   full_body_name =~ /(.*:)?([^\(]*)(\s*\(.*\))?/i
@@ -30,14 +36,28 @@ csv = CSV.foreach('responsables-a-julio-2015.csv', :encoding => 'ISO-8859-3', :h
 
   id = "#{row[INCISO_COLUMN]}-#{row[UE_COLUMN]}"
   body = SECRETARYSHIPS[id] if SECRETARYSHIPS.has_key?(id)
-  puts "#{body} -> #{email}"
+  email = email.split(';').first.split('/').first.strip # use only the first email (; or / can be separators)
 
-  # TODO:
-  #  * Setup the new hierarchy
-  #  * download latest csv file from the api: https://catalogodatos.gub.uy/api/3/action/package_show?id=datos-de-responsables-de-transparencia
-  #  * add a file to this directory to keep track of the last imported version
-  #  * search bodies with ilike
-  #  * capitalize body names before creating them
-  #  * bodies with multiple emails
-  #  * duplicate entries
+  existent_body = PublicBody.where('lower(name) = ?', body.downcase).first
+  if existent_body
+    updated_bodies[body] = email if existent_body.try(:request_email) != email
+  else
+    new_bodies[body.titleize] = email
+  end
 end
+
+puts "The email address of the following #{updated_bodies.length} bodies will change:"
+puts '----------'
+updated_bodies.each {|name, email| puts "#{name} -> #{email}"}
+puts
+
+puts "The following #{new_bodies.length} bodies will be created:"
+puts '----------'
+new_bodies.each {|name, email| puts "#{name} -> #{email}"}
+puts
+
+# TODO:
+#  * duplicate entries
+#  * download latest csv file from the api: https://catalogodatos.gub.uy/api/3/action/package_show?id=datos-de-responsables-de-transparencia
+#  * add a file to this directory to keep track of the last imported version
+#  * Setup the new hierarchy
