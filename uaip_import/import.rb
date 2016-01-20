@@ -18,15 +18,40 @@ SECRETARYSHIPS = {
   '15-1' => 'Dirección General de Secretaría del Ministerio de Desarrollo Social',
 }
 
+require 'net/http'
+require 'json'
 require 'csv'
 
-def String.titleize
-  self.tr('ÁÉÍÓÚ', 'áéíóú').split(' ').map(&:capitalize).join(' ')
+puts 'Setting up the directory...'
+Dir.chdir('../quesabes-data/uaip_import/')
+
+puts 'Connecting to catalogodatos.gub.uy...'
+json = JSON.parse(Net::HTTP.get(URI('https://catalogodatos.gub.uy/api/3/action/package_show?id=datos-de-responsables-de-transparencia')))
+json_resource = json['result']['resources'].last
+
+last_imported_resource = nil
+begin
+  last_imported_resource = File.open('last_run', 'r', &:readline).strip
+rescue
 end
 
+if last_imported_resource == json_resource['id']
+  puts 'The current database is up to date.'
+  exit
+end
+
+puts "Downloading '#{json_resource['name']}'..."
+csv_content = Net::HTTP.get(URI(json_resource['url']))
+
+def titleize_body_name(s)
+  s.tr('ÁÉÍÓÚ', 'áéíóú').split(' ').map(&:capitalize).join(' ')
+end
+
+puts 'Processing file...'
 updated_bodies = {}
 new_bodies = {}
-csv = CSV.foreach('../quesabes-data/uaip_import/responsables-a-julio-2015.csv', :encoding => 'ISO-8859-3', :headers => true, :col_sep => ';') do |row|
+csv_content.force_encoding('ISO-8859-3')
+csv = CSV.parse(csv_content, :headers => true, :col_sep => ';') do |row|
   full_body_name = row[BODY_NAME_COLUMN].to_s.strip.encode('UTF-8')
   email = row[EMAIL_COLUMN].to_s.strip.encode('UTF-8')
   full_body_name =~ /(.*:)?([^\(]*)(\s*\(.*\))?/i
@@ -40,9 +65,11 @@ csv = CSV.foreach('../quesabes-data/uaip_import/responsables-a-julio-2015.csv', 
 
   existent_body = PublicBody.where('lower(name) = ?', body.downcase).first
   if existent_body
-    updated_bodies[body] = email if existent_body.try(:request_email) != email
+    if existent_body.try(:request_email) != email && !updated_bodies.has_key?(existent_body.name)
+      updated_bodies[existent_body.name] = email
+    end
   else
-    new_bodies[body.titleize] = email
+    new_bodies[titleize_body_name(body)] = email
   end
 end
 
@@ -57,7 +84,13 @@ new_bodies.each {|name, email| puts "#{name} -> #{email}"}
 puts
 
 # TODO:
-#  * duplicate entries
-#  * download latest csv file from the api: https://catalogodatos.gub.uy/api/3/action/package_show?id=datos-de-responsables-de-transparencia
-#  * add a file to this directory to keep track of the last imported version
-#  * Setup the new hierarchy
+#  * Setup the new hierarchy -> another script?
+#  * -f argument to actually run the migration
+
+# TODO: only do this when the import operation is actually performed:
+puts 'Saving status file...'
+File.open('last_run', 'w') do |last_run_file|
+  last_run_file.puts json_resource['id']
+end
+
+puts 'Import operation completed successfully.'
