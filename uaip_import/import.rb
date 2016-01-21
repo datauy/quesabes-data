@@ -36,7 +36,7 @@ rescue
 end
 
 if last_imported_resource == json_resource['id']
-  puts 'The current database is up to date.'
+  puts 'The current database is up to date. If you think this is incorrect or you want to run the script again, please remove the last_run file.'
   exit
 end
 
@@ -83,14 +83,40 @@ puts '----------'
 new_bodies.each {|name, email| puts "#{name} -> #{email}"}
 puts
 
-# TODO:
-#  * Setup the new hierarchy -> another script?
-#  * -f argument to actually run the migration
+puts
+print 'Apply these changes? [yN]: '
+$stdout.flush
+unless gets.chomp.downcase == 'y'
+  puts 'Finishing without making any changes.'
+  exit
+end
 
-# TODO: only do this when the import operation is actually performed:
+updated_bodies.each do |name, email|
+  body = PublicBody.find_by_name(name)
+  body.request_email = email
+  if body.save
+    puts "[INFO] Email for '#{body.name}' is now '#{email}'"
+  else
+    puts "[ERROR] Failed to update '#{body.name}': #{body.errors.full_messages}"
+  end
+end
+
+new_bodies.each do |name, email|
+  body = PublicBody.new
+  body.name = name
+  body.request_email = email
+  body.last_edit_editor = 'UAIP import script'
+  body.last_edit_comment = 'Created with the UAIP import script'
+  if body.save
+    puts "[INFO] Created '#{body.name}' with email '#{email}'"
+  else
+    puts "[ERROR] Failed to create '#{body.name}': #{body.errors.full_messages}"
+  end
+end
+
 puts 'Saving status file...'
 File.open('last_run', 'w') do |last_run_file|
   last_run_file.puts json_resource['id']
 end
 
-puts 'Import operation completed successfully.'
+puts 'Finished import operation. See the results above.'

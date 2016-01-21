@@ -8,3 +8,12 @@ Este directorio contiene los scripts para normalizar las entidades de la base de
 cd alaveteli # correr desde el directorio root de la aplicación Rails
 bundle exec rails runner normalize.rb
 ```
+
+# import.rb
+
+Este script descarga los últimos datos publicados y si detecta que se necesita actualizar, muestra la lista de cambios que se realizarán en la base. Luego se pregunta al usuario si desea aplicar los cambios listados o no. Antes de correr este script, asegurarse que los nombres de los organismos estén normalizados corriendo el script anterior (`normalize.rb`), para que coincidan con los datos de la UAIP.
+
+```bash
+cd alaveteli # correr desde el directorio root de la aplicación Rails
+bundle exec rails runner import.rb
+```
