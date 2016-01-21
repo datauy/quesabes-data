@@ -6,7 +6,7 @@ Este directorio contiene los scripts para normalizar las entidades de la base de
 
 ```bash
 cd alaveteli # correr desde el directorio root de la aplicación Rails
-bundle exec rails runner normalize.rb
+bundle exec rails runner ../quesabes-data/uaip_import/normalize.rb
 ```
 
 # import.rb
@@ -15,5 +15,5 @@ Este script descarga los últimos datos publicados y si detecta que se necesita 
 
 ```bash
 cd alaveteli # correr desde el directorio root de la aplicación Rails
-bundle exec rails runner import.rb
+bundle exec rails runner ../quesabes-data/uaip_import/import.rb
 ```
