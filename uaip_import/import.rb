@@ -21,6 +21,7 @@ SECRETARYSHIPS = {
 require 'net/http'
 require 'json'
 require 'csv'
+require_relative './categories.rb'
 
 puts 'Setting up the directory...'
 Dir.chdir('../quesabes-data/uaip_import/')
@@ -61,26 +62,38 @@ csv = CSV.parse(csv_content, :headers => true, :col_sep => ';') do |row|
 
   id = "#{row[INCISO_COLUMN]}-#{row[UE_COLUMN]}"
   body = SECRETARYSHIPS[id] if SECRETARYSHIPS.has_key?(id)
+  category = row[INCISO_COLUMN].to_s.length > 0 ? category_title_to_tag_name(CATEGORIES[row[INCISO_COLUMN].to_i]) : nil
   email = email.split(';').first.split('/').first.strip # use only the first email (; or / can be separators)
 
   existent_body = PublicBody.where('lower(name) = ?', body.downcase).first
   if existent_body
-    if existent_body.try(:request_email) != email && !updated_bodies.has_key?(existent_body.name)
-      updated_bodies[existent_body.name] = email
+    unless updated_bodies.has_key?(existent_body.name)
+      if existent_body.request_email != email
+        updated_bodies[existent_body.name] ||= {}
+        updated_bodies[existent_body.name][:email] = email
+      end
+      if existent_body.tag_string != category
+        updated_bodies[existent_body.name] ||= {}
+        updated_bodies[existent_body.name][:category] = category
+      end
     end
   else
-    new_bodies[titleize_body_name(body)] = email
+    new_bodies[titleize_body_name(body)] = { :email => email, :category => category }
   end
 end
 
-puts "The email address of the following #{updated_bodies.length} bodies will change:"
+puts "The following #{updated_bodies.length} bodies will change:"
 puts '----------'
-updated_bodies.each {|name, email| puts "#{name} -> #{email}"}
+updated_bodies.each do |name, changes|
+  puts "#{name} -> " + changes.map {|field, value| "#{field} will now be '#{value}'"}.join(', ')
+end
 puts
 
 puts "The following #{new_bodies.length} bodies will be created:"
 puts '----------'
-new_bodies.each {|name, email| puts "#{name} -> #{email}"}
+new_bodies.each do |name, changes|
+  puts "#{name} -> " + changes.map {|field, value| "with #{field}='#{value}'"}.join(', ')
+end
 puts
 
 puts
@@ -91,24 +104,26 @@ unless gets.chomp.downcase == 'y'
   exit
 end
 
-updated_bodies.each do |name, email|
+updated_bodies.each do |name, changes|
   body = PublicBody.find_by_name(name)
-  body.request_email = email
+  body.request_email = changes[:email]
+  body.tag_string = changes[:category]
   if body.save
-    puts "[INFO] Email for '#{body.name}' is now '#{email}'"
+    puts "[INFO] Changes to '#{body.name}' were applied successfully: #{changes}"
   else
     puts "[ERROR] Failed to update '#{body.name}': #{body.errors.full_messages}"
   end
 end
 
-new_bodies.each do |name, email|
+new_bodies.each do |name, changes|
   body = PublicBody.new
   body.name = name
-  body.request_email = email
+  body.request_email = changes[:email]
+  body.tag_string = changes[:category]
   body.last_edit_editor = 'UAIP import script'
   body.last_edit_comment = 'Created with the UAIP import script'
   if body.save
-    puts "[INFO] Created '#{body.name}' with email '#{email}'"
+    puts "[INFO] Created '#{body.name}' with attributes #{changes}"
   else
     puts "[ERROR] Failed to create '#{body.name}': #{body.errors.full_messages}"
   end
@@ -120,3 +135,7 @@ File.open('last_run', 'w') do |last_run_file|
 end
 
 puts 'Finished import operation. See the results above.'
+
+# TODO:
+#  * script to verify if all the categories exist and creates the missing ones
+#  * add category detection: make the script fail when there's a new category that's not registered in ./categories.rb
