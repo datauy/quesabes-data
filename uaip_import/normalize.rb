@@ -1,10 +1,16 @@
 #!/usr/bin/env ruby
-#
+
+# these are duplicates
+BODIES_TO_DELETE = [
+  'Administración Nacional de Educación Pública - Consejo de Educacion Inicial y Primaria',
+  'Intendencia Departamental de Florida',
+]
+
 NAMES_MAPPING = {
   'Presidencia' => 'Dirección General de Presidencia de la República',
   'Unidad Reguladora de Energia y Agua' => 'Unidad Reguladora de Servicios de Energía y Agua',
   'Unidad Reguladora y de Control de Datos Personales' => 'Agencia para el Desarrollo del Gobierno de Gestión Electrónica y la Sociedad de la Información y del Conocimiento (AGESIC)',
-  'Armada Nacional' => 'Comando General de la Armada',
+  'Armada Nacional = Ministerio de Defensa de Nacional' => 'Comando General de la Armada',
   'Fuerza Aerea' => 'Comando General de la Fuerza Aérea',
   'Ministerio del Interior' => 'Dirección General de Secretaría del Ministerio del Interior',
   'Sanidad Policial' => 'UE 030: Dirección Nacional de Sanidad Policial',
@@ -35,12 +41,11 @@ NAMES_MAPPING = {
   'Camara de Senadores' => 'Cámara de Senadores',
   'Tribunal contencioso administrativo' => 'Tribunal De Lo Contencioso Administrativo',
   'Administración Nacional de Educación Pública -CODICEN' => 'Consejo Directivo Central',
-  'Administración Nacional de Educación Pública - Consejo de Educacion Inicial y Primaria' => 'Consejo de Educación Inicial y Primaria',
   'Administración Nacional de Educación Pública - Consejo de Educacion Secundaria' => 'Consejo de Educación Secundaria',
   'Administración Nacional de Educación Pública -CONSEJO DE FORMACION EN EDUCACION' => 'Consejo de Formación en Educación',
   'Facultad de Agronomia' => 'Facultad de Agronomía',
   'Banco de Prevision Social' => 'Banco de Previsión Social',
-  'BROU, Banco República' => 'Banco de la República Oriental del Uruguay',
+  'Banco República Oriental del Uruguay' => 'Banco de la República Oriental del Uruguay',
   'Administracion Nacional de Combustible, Alcoholes y Portland' => 'ANCAP',
   'Administracion Nacional de Ferrrocariles del Estado' => 'AFE',
   'Instituto Naiconal de Colonizacion' => 'Instituto Nacional de Colonización',
@@ -67,6 +72,18 @@ NAMES_MAPPING = {
   'Intendencia de Montevideo' => 'Intendencia Departamental de Montevideo',
   'Jefatura de Policia de Canelones' => 'Jefatura de Policía de Canelones',
 }
+
+BODIES_TO_DELETE.each do |name|
+  body = PublicBody.find_by_name(name)
+  next puts "Could not find '#{name}'" unless body
+  next puts "Body '#{name}' already has requests and can't be deleted." if body.info_requests.count > 0
+  begin
+    body.destroy
+    puts "Deleted '#{name}'"
+  rescue => e
+    puts "Failed to delete '#{name}' because: #{e.to_s}"
+  end
+end
 
 NAMES_MAPPING.each do |old_name, new_name|
   body = PublicBody.find_by_name(old_name)
