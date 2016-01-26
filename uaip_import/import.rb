@@ -48,6 +48,11 @@ def titleize_body_name(s)
   s.tr('ÁÉÍÓÚ', 'áéíóú').split(' ').map(&:capitalize).join(' ')
 end
 
+# yeah, this happens...
+def fix_email(email)
+  email.tr('ÁÉÍÓÚáéíóú', 'aeiouaeiou')
+end
+
 puts 'Processing file...'
 updated_bodies = {}
 new_bodies = {}
@@ -69,6 +74,7 @@ csv = CSV.parse(csv_content, :headers => true, :col_sep => ';') do |row|
   body = SECRETARYSHIPS[id] if SECRETARYSHIPS.has_key?(id)
   category = row[INCISO_COLUMN].to_s.length > 0 ? category_title_to_tag_name(CATEGORIES[row[INCISO_COLUMN].to_i]) : nil
   email = email.split(';').first.split('/').first.strip # use only the first email (; or / can be separators)
+  email = fix_email(email)
 
   existent_body = PublicBody.where("name ilike ?", body.downcase).first
   if existent_body
