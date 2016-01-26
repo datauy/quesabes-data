@@ -60,6 +60,11 @@ csv = CSV.parse(csv_content, :headers => true, :col_sep => ';') do |row|
   next if body.length == 0 || email.length == 0
   next if IGNORE.include?(body)
 
+  if row[INCISO_COLUMN].to_s.length > 0 && !CATEGORIES.has_key?(row[INCISO_COLUMN].to_i)
+    puts "[ERROR] An unrecognized category was found: INCISO=#{row[INCISO_COLUMN]}. Please review the CSV and add all the categories to the categories.rb file."
+    exit
+  end
+
   id = "#{row[INCISO_COLUMN]}-#{row[UE_COLUMN]}"
   body = SECRETARYSHIPS[id] if SECRETARYSHIPS.has_key?(id)
   category = row[INCISO_COLUMN].to_s.length > 0 ? category_title_to_tag_name(CATEGORIES[row[INCISO_COLUMN].to_i]) : nil
@@ -82,6 +87,12 @@ csv = CSV.parse(csv_content, :headers => true, :col_sep => ';') do |row|
   end
 end
 
+new_categories = []
+CATEGORIES.values.each do |category|
+  next if PublicBodyCategory.find_by_category_tag(category_title_to_tag_name(category))
+  new_categories << category
+end
+
 puts "The following #{updated_bodies.length} bodies will change:"
 puts '----------'
 updated_bodies.each do |name, changes|
@@ -94,6 +105,11 @@ puts '----------'
 new_bodies.each do |name, changes|
   puts "#{name} -> " + changes.map {|field, value| "with #{field}='#{value}'"}.join(', ')
 end
+puts
+
+puts "The following #{new_categories.length} categories will be created"
+puts '----------'
+new_categories.each {|category| puts category }
 puts
 
 puts
@@ -109,9 +125,9 @@ updated_bodies.each do |name, changes|
   body.request_email = changes[:email]
   body.tag_string = changes[:category]
   if body.save
-    puts "[INFO] Changes to '#{body.name}' were applied successfully: #{changes}"
+    puts "[INFO] Changes to body '#{body.name}' were applied successfully: #{changes}"
   else
-    puts "[ERROR] Failed to update '#{body.name}': #{body.errors.full_messages}"
+    puts "[ERROR] Failed to update body '#{body.name}': #{body.errors.full_messages}"
   end
 end
 
@@ -123,9 +139,21 @@ new_bodies.each do |name, changes|
   body.last_edit_editor = 'UAIP import script'
   body.last_edit_comment = 'Created with the UAIP import script'
   if body.save
-    puts "[INFO] Created '#{body.name}' with attributes #{changes}"
+    puts "[INFO] Created body '#{body.name}' with attributes #{changes}"
   else
-    puts "[ERROR] Failed to create '#{body.name}': #{body.errors.full_messages}"
+    puts "[ERROR] Failed to create body '#{body.name}': #{body.errors.full_messages}"
+  end
+end
+
+new_categories.each do |category_title|
+  category = PublicBodyCategory.new
+  category.title = category_title
+  category.description = category_title
+  category.category_tag = category_title_to_tag_name(category_title)
+  if category.save
+    puts "[INFO] Created category '#{category.title}'"
+  else
+    puts "[ERROR] Failed to create category '#{category.title}': #{category.errors.full_messages}"
   end
 end
 
@@ -135,7 +163,3 @@ File.open('last_run', 'w') do |last_run_file|
 end
 
 puts 'Finished import operation. See the results above.'
-
-# TODO:
-#  * script to verify if all the categories exist and creates the missing ones
-#  * add category detection: make the script fail when there's a new category that's not registered in ./categories.rb
