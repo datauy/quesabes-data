@@ -70,7 +70,7 @@ csv = CSV.parse(csv_content, :headers => true, :col_sep => ';') do |row|
   category = row[INCISO_COLUMN].to_s.length > 0 ? category_title_to_tag_name(CATEGORIES[row[INCISO_COLUMN].to_i]) : nil
   email = email.split(';').first.split('/').first.strip # use only the first email (; or / can be separators)
 
-  existent_body = PublicBody.where('lower(name) = ?', body.downcase).first
+  existent_body = PublicBody.where("name ilike ?", body.downcase).first
   if existent_body
     unless updated_bodies.has_key?(existent_body.name)
       if existent_body.request_email != email

@@ -65,6 +65,7 @@ NAMES_MAPPING = {
   'Junta Departamental de Rio Negro' => 'Junta Departamental de Río Negro',
   'Junta Departamental de San Jose' => 'Junta Departamental de San José',
   'Intendencia de Montevideo' => 'Intendencia Departamental de Montevideo',
+  'Jefatura de Policia de Canelones' => 'Jefatura de Policía de Canelones',
 }
 
 NAMES_MAPPING.each do |old_name, new_name|
