@@ -5,66 +5,72 @@ ANCAP,10,exitoso
 ANCAP,1,parcialmente_exitoso
 ANCAP,4,esperando_respuesta
 ANCAP,1,
-ANTEL,9,rechazado
+ANTEL,10,rechazado
+ANTEL,2,no_retenido
 ANTEL,2,terminado_por_usuario
-ANTEL,9,exitoso
+ANTEL,12,exitoso
 ANTEL,3,parcialmente_exitoso
-ANTEL,2,esperando_respuesta
+ANTEL,4,esperando_respuesta
 Administración Nacional de Correos,1,
 Administración Nacional de Correos,1,esperando_respuesta
 Administración Nacional de Educación Pública - Contacto General,2,rechazado
 Administración Nacional de Educación Pública - Contacto General,4,revision_interna
-Administración Nacional de Educación Pública - Contacto General,7,esperando_respuesta
+Administración Nacional de Educación Pública - Contacto General,10,esperando_respuesta
 Administración Nacional de Educación Pública -CONSEJO DE EDUCACION TECNICO PROFESION,0,
 Administración Nacional de Puertos,0,
 Administración Nacional de Usinas y Trasmisiones Eléctricas,1,revision_interna
-Administración Nacional de Usinas y Trasmisiones Eléctricas,2,esperando_respuesta
+Administración Nacional de Usinas y Trasmisiones Eléctricas,3,esperando_respuesta
 Administración Nacional de Usinas y Trasmisiones Eléctricas,1,
 Administración Nacional de Usinas y Trasmisiones Eléctricas,1,no_retenido
-Administración Nacional de Usinas y Trasmisiones Eléctricas,2,rechazado
+Administración Nacional de Usinas y Trasmisiones Eléctricas,3,rechazado
 Administración de las Obras Sanitarias del Estado,1,por_correo
 Administración de las Obras Sanitarias del Estado,1,
 Administración de las Obras Sanitarias del Estado,1,terminado_por_usuario
-Administración de las Obras Sanitarias del Estado,6,exitoso
-Administración de las Obras Sanitarias del Estado,1,esperando_respuesta
-Administración de los Servicios de Salud del Estado,0,
+Administración de las Obras Sanitarias del Estado,8,exitoso
+Administración de las Obras Sanitarias del Estado,2,esperando_respuesta
+Administración de los Servicios de Salud del Estado,1,esperando_respuesta
 Agencia Nacional de Investigación e Innovación,2,esperando_respuesta
 Agencia Nacional de Vivienda,0,
-Agencia Para El Desarrollo Del Gobierno De Gestión Electrónica Y La Sociedad De La Información Y Del Conocimiento,0,
+Agencia Para El Desarrollo Del Gobierno De Gestión Electrónica Y La Sociedad De La Información Y Del Conocimiento,1,esperando_respuesta
 Agencia de Compras y Contrataciones del Estado,1,no_retenido
+Agencia de Compras y Contrataciones del Estado,1,parcialmente_exitoso
 Agencia de Compras y Contrataciones del Estado,2,exitoso
 Agencia para el Desarrollo del Gobierno de Gestión Electrónica y la Sociedad de la Información y del Conocimiento (AGESIC),1,esperando_respuesta
 Agencia para el Gobierno Electronico y la Sociedad de la Informacion,1,terminado_por_usuario
 Agencia para el Gobierno Electronico y la Sociedad de la Informacion,1,exitoso
 Agencia para el Gobierno Electronico y la Sociedad de la Informacion,1,parcialmente_exitoso
 Agencia para el Gobierno Electronico y la Sociedad de la Informacion,2,no_retenido
+Archivo General de la Nación,1,exitoso
+Archivo General de la Nación,1,por_correo
 Archivo General de la Nación,1,rechazado
 Auditoría Interna de la Nación,2,esperando_respuesta
 Autoridad Reguladora Nacional en Radioprotección,0,
 Banco Central del Uruguay,1,parcialmente_exitoso
 Banco Central del Uruguay,1,por_correo
-Banco Hipotecario del Uruguay,0,
+Banco Hipotecario del Uruguay,1,esperando_respuesta
 Banco de Previsión Social,1,por_correo
 Banco de Previsión Social,6,esperando_respuesta
 Banco de Seguros del Estado,1,exitoso
+Banco de Seguros del Estado,1,esperando_respuesta
 Banco de Seguros del Estado,1,rechazado
 Banco de la República Oriental del Uruguay,1,exitoso
 Banco de la República Oriental del Uruguay,1,esperando_respuesta
 Banco de la República Oriental del Uruguay,1,rechazado
 Caja Jubilaciones Y Pensiones Profesionales Universitarios,1,
-Caja Notarial de Seguridad Social,0,
+Caja Notarial de Seguridad Social,1,esperando_respuesta
 Caja de Jubilaciones y Pensiones Bancarias,0,
 Caja de Jubilaciones y Pensiones Universitarios,0,
 Camara de Diputados,1,revision_interna
 Camara de Diputados,4,esperando_respuesta
 Casa Militar,0,
-Comando General de la Armada,3,esperando_respuesta
+Comando General de la Armada,4,esperando_respuesta
 Comando General de la Armada,1,exitoso
+Comando General de la Armada,1,
 Comando General de la Armada,1,rechazado
 Comando General de la Fuerza Aérea,1,rechazado
 Comando General de la Fuerza Aérea,1,esperando_respuesta
 Comision Administradora del Poder Legislativo,5,esperando_respuesta
-Comisión Honoraria Lucha Contra el Cáncer,0,
+Comisión Honoraria Lucha Contra el Cáncer,1,esperando_respuesta
 Comisión Honoraria para la Salud Cardiovascular,0,
 Congreso de Intendentes,1,esperando_respuesta
 Congreso de Intendentes,1,rechazado
@@ -94,7 +100,7 @@ Defensa del Consumidor,2,esperando_respuesta
 "Direc.de Innovación, Ciencia y Tecnología para el Desarrollo",0,
 Direccion Contralor de Semovientes,1,esperando_respuesta
 Direccion Contralor de Semovientes,1,no_retenido
-Direccion General de informacion e Inteligencia,0,
+Direccion General de informacion e Inteligencia,1,esperando_respuesta
 Direccion Nacional Recursos Acuaticos,1,por_correo
 Direccion Nacional de Asistencia y  Seguridad SocialPolicial,0,
 Direccion Nacional de Bomberos,1,parcialmente_exitoso
@@ -105,16 +111,9 @@ Direccion Nacional de Sanidad  de las  Fuerzas Armadas,1,no_retenido
 Direccion Nacional de aviacion civil e infraestructura aeronautica,1,por_correo
 Direccion Nacional de migraciones,0,
 Dirección General Forestal,0,
+Dirección General Impositiva,1,parcialmente_exitoso
 Dirección General Impositiva,2,esperando_respuesta
 Dirección General de Casinos,0,
-Dirección General de Presidencia de la República,1,no_retenido
-Dirección General de Presidencia de la República,2,
-Dirección General de Presidencia de la República,2,rechazado
-Dirección General de Presidencia de la República,2,revision_interna
-Dirección General de Presidencia de la República,2,parcialmente_exitoso
-Dirección General de Presidencia de la República,3,esperando_respuesta
-Dirección General de Presidencia de la República,6,exitoso
-Dirección General de Presidencia de la República,1,terminado_por_usuario
 "Dirección General de Secretaría del Ministerio De Industria, Energía y Minería",1,no_retenido
 "Dirección General de Secretaría del Ministerio De Industria, Energía y Minería",1,por_correo
 "Dirección General de Secretaría del Ministerio De Industria, Energía y Minería",1,
@@ -123,16 +122,17 @@ Dirección General de Presidencia de la República,1,terminado_por_usuario
 "Dirección General de Secretaría del Ministerio De Industria, Energía y Minería",1,esperando_respuesta
 Dirección General de Secretaría del Ministerio de Desarrollo Social,1,rechazado
 Dirección General de Secretaría del Ministerio de Desarrollo Social,1,revision_interna
-Dirección General de Secretaría del Ministerio de Desarrollo Social,6,exitoso
+Dirección General de Secretaría del Ministerio de Desarrollo Social,8,exitoso
 Dirección General de Secretaría del Ministerio de Desarrollo Social,1,parcialmente_exitoso
-Dirección General de Secretaría del Ministerio de Desarrollo Social,6,esperando_respuesta
+Dirección General de Secretaría del Ministerio de Desarrollo Social,8,esperando_respuesta
 Dirección General de Secretaría del Ministerio del Interior,1,no_retenido
 Dirección General de Secretaría del Ministerio del Interior,1,
 Dirección General de Secretaría del Ministerio del Interior,2,rechazado
-Dirección General de Secretaría del Ministerio del Interior,14,revision_interna
+Dirección General de Secretaría del Ministerio del Interior,16,revision_interna
 Dirección General de Secretaría del Ministerio del Interior,2,parcialmente_exitoso
-Dirección General de Secretaría del Ministerio del Interior,21,esperando_respuesta
-Dirección General de Secretaría del Ministerio del Interior,7,exitoso
+Dirección General de Secretaría del Ministerio del Interior,24,esperando_respuesta
+Dirección General de Secretaría del Ministerio del Interior,1,
+Dirección General de Secretaría del Ministerio del Interior,10,exitoso
 Dirección Nacional Arquitectura,1,no_retenido
 Dirección Nacional Aviación Civil E Infraestructura Aeronáutica,0,
 Dirección Nacional Cultura Científica,0,
@@ -156,7 +156,7 @@ Dirección Nacional de Hidrografía,1,no_retenido
 Dirección Nacional de Hidrografía,2,rechazado
 Dirección Nacional de Hidrografía,1,revision_interna
 Dirección Nacional de Hidrografía,1,exitoso
-Dirección Nacional de Hidrografía,3,esperando_respuesta
+Dirección Nacional de Hidrografía,4,esperando_respuesta
 Dirección Nacional de Identificación Civil (DNIC),1,exitoso
 Dirección Nacional de Identificación Civil (DNIC),1,no_retenido
 Dirección Nacional de Identificación Civil (DNIC),1,por_correo
@@ -165,7 +165,7 @@ Dirección Nacional de Industrias,0,
 Dirección Nacional de Minería y Geología,0,
 Dirección Nacional de Telecomunicaciones y Servicios de  Comunicación Audiovisual,1,esperando_respuesta
 Dirección Nacional de Topografía,1,no_retenido
-Dirección Nacional de Trabajo,1,esperando_respuesta
+Dirección Nacional de Trabajo,2,esperando_respuesta
 Dirección Nacional de Transporte,1,rechazado
 Dirección Nacional de Vialidad,1,parcialmente_exitoso
 Dirección Nacional de Vialidad,1,revision_interna
@@ -186,7 +186,7 @@ Instituto Nacional De Estadística,0,
 Instituto Nacional De Rehabilitación,2,esperando_respuesta
 "Instituto Nacional de  Donación  y Trasplante de Células, Tejidos y Órganos",0,
 Instituto Nacional de Calidad,1,exitoso
-Instituto Nacional de Carnes,0,
+Instituto Nacional de Carnes,1,esperando_respuesta
 Instituto Nacional de Colonización,0,
 Instituto Nacional de Estadistica,2,no_retenido
 Instituto Nacional de Estadistica,1,rechazado
@@ -194,7 +194,7 @@ Instituto Nacional de Estadistica,8,exitoso
 Instituto Nacional de Estadistica,2,parcialmente_exitoso
 Instituto Nacional de Evaluación Educativa,0,
 Instituto Nacional de Inclusión Social Adolescente,1,exitoso
-Instituto Nacional de Investigación Agropecuaria,0,
+Instituto Nacional de Investigación Agropecuaria,1,esperando_respuesta
 Instituto Nacional de Rehabilitacion,1,no_retenido
 Instituto Nacional de Rehabilitacion,1,exitoso
 Instituto Nacional del Nino y el Adolescente del Uruguay,2,rechazado
@@ -204,9 +204,9 @@ Instituto Nacional del Nino y el Adolescente del Uruguay,1,revision_interna
 Instituto Plan Agropecuario,0,
 Instituto Uruguayo de Meteorología,0,
 Instituto de Investigaciones Biológicas Clemente Estable,0,
-Instituto de Regulación y Control del Cannabis,0,
+Instituto de Regulación y Control del Cannabis,1,exitoso
 Intendencia Departamental de Canelones,5,esperando_respuesta
-Intendencia Departamental de Canelones,2,exitoso
+Intendencia Departamental de Canelones,4,exitoso
 Intendencia Departamental de Canelones,10,revision_interna
 Intendencia Departamental de Canelones,1,por_correo
 Intendencia Departamental de Canelones,1,rechazado
@@ -217,20 +217,23 @@ Intendencia Departamental de Florida,1,exitoso
 Intendencia Departamental de Florida,1,esperando_respuesta
 Intendencia Departamental de Lavalleja,2,esperando_respuesta
 Intendencia de Durazno,2,
-Intendencia de Durazno,3,esperando_respuesta
+Intendencia de Durazno,2,esperando_respuesta
+Intendencia de Durazno,1,parcialmente_exitoso
+Intendencia de Durazno,1,revision_interna
 Intendencia de Maldonado,1,revision_interna
 Intendencia de Maldonado,1,terminado_por_usuario
-Intendencia de Maldonado,1,esperando_respuesta
+Intendencia de Maldonado,2,esperando_respuesta
+Intendencia de Maldonado,1,rechazado
 Intendencia de Montevideo,4,no_retenido
 Intendencia de Montevideo,14,por_correo
 Intendencia de Montevideo,4,rechazado
 Intendencia de Montevideo,1,
 Intendencia de Montevideo,1,
-Intendencia de Montevideo,2,revision_interna
+Intendencia de Montevideo,3,revision_interna
 Intendencia de Montevideo,2,terminado_por_usuario
 Intendencia de Montevideo,12,exitoso
-Intendencia de Montevideo,6,
-Intendencia de Montevideo,2,esperando_respuesta
+Intendencia de Montevideo,8,
+Intendencia de Montevideo,5,esperando_respuesta
 Intendencia de Montevideo,8,parcialmente_exitoso
 Intendencia de Salto,2,esperando_respuesta
 Internal admin authority,1,esperando_respuesta
@@ -250,7 +253,7 @@ Junta Nacional de Drogas,1,exitoso
 Junta Nacional de Drogas,1,rechazado
 Junta de Transparencia y Ética Pública,1,esperando_respuesta
 Laboratorio Tecnológico del Uruguay,0,
-Mevir,0,
+Mevir,1,esperando_respuesta
 Ministerio  Defensa Nacional Ejercito,1,rechazado
 Ministerio de Defensa,1,revision_interna
 Ministerio de Defensa,2,esperando_respuesta
@@ -261,12 +264,12 @@ Ministerio de Economia y Finanzas,2,terminado_por_usuario
 Ministerio de Economia y Finanzas,1,exitoso
 Ministerio de Economia y Finanzas,1,no_retenido
 Ministerio de Economia y Finanzas,1,por_correo
-Ministerio de Educación y Cultura,5,rechazado
+Ministerio de Educación y Cultura,7,rechazado
 Ministerio de Educación y Cultura,2,por_correo
 Ministerio de Educación y Cultura,1,
 Ministerio de Educación y Cultura,2,exitoso
 Ministerio de Educación y Cultura,1,parcialmente_exitoso
-Ministerio de Educación y Cultura,4,esperando_respuesta
+Ministerio de Educación y Cultura,7,esperando_respuesta
 Ministerio de Educación y Cultura,3,revision_interna
 Ministerio de Ganaderia Agricultura y Pesca,1,revision_interna
 Ministerio de Ganaderia Agricultura y Pesca,1,terminado_por_usuario
@@ -286,19 +289,21 @@ Ministerio de Salud Pública,1,
 Ministerio de Salud Pública,3,por_correo
 Ministerio de Salud Pública,8,rechazado
 Ministerio de Salud Pública,1,no_retenido
-Ministerio de Salud Pública,17,esperando_respuesta
-Ministerio de Salud Pública,1,parcialmente_exitoso
-Ministerio de Salud Pública,11,exitoso
-Ministerio de Salud Pública,8,revision_interna
+Ministerio de Salud Pública,19,esperando_respuesta
+Ministerio de Salud Pública,3,parcialmente_exitoso
+Ministerio de Salud Pública,3,terminado_por_usuario
+Ministerio de Salud Pública,17,exitoso
+Ministerio de Salud Pública,1,
+Ministerio de Salud Pública,9,revision_interna
 Ministerio de Trabajo y Seguridad Social,3,revision_interna
 Ministerio de Trabajo y Seguridad Social,1,exitoso
-Ministerio de Trabajo y Seguridad Social,2,esperando_respuesta
+Ministerio de Trabajo y Seguridad Social,3,esperando_respuesta
 Ministerio de Trabajo y Seguridad Social,2,por_correo
 Ministerio de Trabajo y Seguridad Social,3,rechazado
 Ministerio de Trabajo y Seguridad Social,1,
 Ministerio de Transporte y Obras Públicas,2,rechazado
 Ministerio de Transporte y Obras Públicas,1,no_retenido
-Ministerio de Transporte y Obras Públicas,2,exitoso
+Ministerio de Transporte y Obras Públicas,3,exitoso
 Ministerio de Transporte y Obras Públicas,9,esperando_respuesta
 Ministerio de Transporte y Obras Públicas,1,revision_interna
 Ministerio de Turismo y Deporte,1,terminado_por_usuario
@@ -309,7 +314,7 @@ Ministerio de Turismo y Deporte,3,rechazado
 Ministerio de Vivienda Ordenamiento Territorial y Medio Ambiente,3,revision_interna
 Ministerio de Vivienda Ordenamiento Territorial y Medio Ambiente,2,exitoso
 Ministerio de Vivienda Ordenamiento Territorial y Medio Ambiente,1,terminado_por_usuario
-Ministerio de Vivienda Ordenamiento Territorial y Medio Ambiente,14,esperando_respuesta
+Ministerio de Vivienda Ordenamiento Territorial y Medio Ambiente,15,esperando_respuesta
 Ministerio de Vivienda Ordenamiento Territorial y Medio Ambiente,1,parcialmente_exitoso
 Ministerio de Vivienda Ordenamiento Territorial y Medio Ambiente,1,no_retenido
 Ministerio de Vivienda Ordenamiento Territorial y Medio Ambiente,5,rechazado
@@ -322,9 +327,10 @@ Municipio E (Montevideo),0,
 Municipio F (Montevideo),0,
 Municipio G (Montevideo),0,
 Municipio de Maldonado,0,
-Museo Nacional de Artes Visuales,0,
+Museo Nacional de Artes Visuales,1,esperando_respuesta
 Oficina Nacional del Servicio Civil,3,rechazado
 Oficina Nacional del Servicio Civil,2,no_retenido
+Oficina Nacional del Servicio Civil,1,exitoso
 Oficina de Planeamiento y Presupuesto,1,
 Oficina de Planeamiento y Presupuesto,1,exitoso
 Oficina de Planeamiento y Presupuesto,1,parcialmente_exitoso
@@ -333,7 +339,16 @@ Oficina de Planeamiento y Presupuesto,1,revision_interna
 Oficina de Planeamiento y Presupuesto,1,rechazado
 Pluna Ente Autonomo,1,por_correo
 Poder Judicial,1,exitoso
-Poder Judicial,2,esperando_respuesta
+Poder Judicial,1,esperando_respuesta
+Poder Judicial,1,
+Presidencia de la República,1,no_retenido
+Presidencia de la República,2,
+Presidencia de la República,2,rechazado
+Presidencia de la República,2,revision_interna
+Presidencia de la República,6,esperando_respuesta
+Presidencia de la República,2,parcialmente_exitoso
+Presidencia de la República,1,terminado_por_usuario
+Presidencia de la República,10,exitoso
 Procuraduría Estado en Contencioso Administrativo,0,
 SODRE,1,rechazado
 Secretaría Nacional de Deporte,2,esperando_respuesta
@@ -347,7 +362,7 @@ Television Nacional del Uruguay,1,
 Television Nacional del Uruguay,1,rechazado
 Tesoreria General de la Nacion,0,
 Tesorería General De La Nación,0,
-Tribunal De Lo Contencioso Administrativo,0,
+Tribunal De Lo Contencioso Administrativo,1,
 Tribunal de Cuentas,1,esperando_respuesta
 Tribunal de Cuentas,1,rechazado
 UE 030: Dirección Nacional de Sanidad Policial,1,esperando_respuesta
@@ -363,6 +378,7 @@ Unidad Reguladora de Servicios de Energía y Agua,1,esperando_respuesta
 Unidad Reguladora de Servicios de Energía y Agua,1,revision_interna
 Unidad de Acceso a la Información Pública,1,por_correo
 Unidad de Acceso a la Información Pública,1,no_retenido
+Unidad de Acceso a la Información Pública,1,parcialmente_exitoso
 Unidad de Acceso a la Información Pública,1,
 Unidad de Acceso a la Información Pública,3,exitoso
 Unidad de Acceso a la Información Pública,1,terminado_por_usuario

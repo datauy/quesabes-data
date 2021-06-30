@@ -35,12 +35,20 @@ Cantidad de solicitudes de acceso a la información pública y funcionarios,2015
 Problemas de Comunicacion entre Antel y los cajeros del Brou el día 09/05/2013,2013-09-12 13:59:27.816347,rechazado,problemas_de_comunicacion_entre,ANTEL
 Dinero gastado en publicidad desde octubre 2011 a octubre 2013.,2013-10-17 02:30:00.313354,rechazado,dinero_gastado_en_publicidad_des,ANTEL
 Derechos de Transmisión Del Carnaval 2019 Por Vera+,2019-02-07 06:42:49.974108,exitoso,derechos_de_transmision_del_carn,ANTEL
-Solicitud de Información sobre Despliegue de fibra óptica,2019-09-28 03:12:39.886148,parcialmente_exitoso,solicitud_de_informacion_sobre_d,ANTEL
 Solicitud de información sobre el despliegue de FTTH.,2019-12-17 19:21:14.665258,exitoso,solicitud_de_informacion_sobre_e,ANTEL
+Solicitud de Información sobre Despliegue de fibra óptica,2019-09-28 03:12:39.886148,parcialmente_exitoso,solicitud_de_informacion_sobre_d,ANTEL
 "Solicito información para saber en que momento comenzará la instalación de FTTH en la zona comprendida entre: Cno La Cabra, Av. De Las Instrucciones y Cno Toledo Chico",2019-12-17 12:55:07.210616,terminado_por_usuario,solicito_informacion_para_saber,ANTEL
 Solicitud de información sobre el despliegue de FTTH,2020-02-17 22:41:56.202075,terminado_por_usuario,solicitud_de_informacion_sobre_e_2,ANTEL
+Acceso a la información,2020-06-14 03:51:51.132989,exitoso,acceso_a_la_informacion,ANTEL
 Solicitud de fecha de finalización de la instalación de FTTH,2020-02-08 12:21:10.991968,exitoso,solicitud_de_fecha_de_finalizaci,ANTEL
-Información FTTH,2020-04-11 20:05:44.743198,esperando_respuesta,informacion_ftth,ANTEL
+Ubicación del cableado bajo vereda en calle Frugoni,2020-06-16 15:18:23.964645,no_retenido,ubicacion_del_cableado_bajo_vere,ANTEL
+Información FTTH,2020-04-11 20:05:44.743198,exitoso,informacion_ftth,ANTEL
+Fechas de inicio de disponibilidad de FTTH,2020-07-02 14:19:21.245521,rechazado,fechas_de_inicio_de_disponibilid,ANTEL
+Fecha de despliegue de FTTH,2020-07-28 20:00:15.016392,no_retenido,fecha_de_despliegue_de_ftth,ANTEL
+"Información sobre instalación de fibra óptica en El Pinar, Canelones",2021-04-04 14:50:44.776216,esperando_respuesta,informacion_sobre_instalacion_de,ANTEL
+"Inversión en promoción, auspicios y publicidad en el período 2002-2004",2020-09-15 12:27:05.970318,esperando_respuesta,inversion_en_promocion_auspicios,ANTEL
+Despliegue Fibra Optica,2021-04-15 06:08:11.357572,exitoso,despliegue_fibra_optica,ANTEL
+Resultados económicos volcados a rentas generales en el período 1999-2019,2020-09-15 12:37:27.896604,esperando_respuesta,resultados_economicos_volcados_a,ANTEL
 "Pequeño paquete:   declarado , pagado ,  no entregado",2016-03-02 09:46:00.247898,esperando_respuesta,pequeno_paquete_declarado_pagado,Administración Nacional de Correos
 Gastos de Apoyo a Deportistas,2017-05-19 17:49:44.666283,,gastos_de_apoyo_a_deportistas_8,Administración Nacional de Correos
 Se informe sobre el presupuesto asignado a profesores adscriptores en Consejo de Educación Secundaria,2017-09-13 18:24:44.186492,esperando_respuesta,se_informe_sobre_el_presupuesto,Administración Nacional de Educación Pública - Contacto General
@@ -56,6 +64,9 @@ Queremos saber cuál es el criterio que utiliza ANEP para contratar espacios pub
 Becas o subsidios para estudiantes de Montevideo que estudien en el interior,2013-10-13 01:31:27.88987,rechazado,becas_o_subsidios_para_estudiant,Administración Nacional de Educación Pública - Contacto General
 Referentes Pares,2016-02-09 22:51:21.119789,esperando_respuesta,referentes_pares,Administración Nacional de Educación Pública - Contacto General
 La inscripación de estudiantes en las escuelas públicas del año 2017-2018,2020-02-22 22:41:54.257922,revision_interna,la_inscripacion_de_estudiantes_e,Administración Nacional de Educación Pública - Contacto General
+Solicitud,2020-06-29 21:55:17.930071,esperando_respuesta,solicitud,Administración Nacional de Educación Pública - Contacto General
+Matriculación de estudiantes en UdelaR,2020-08-26 13:06:13.771159,esperando_respuesta,matriculacion_de_estudiantes_en,Administración Nacional de Educación Pública - Contacto General
+Matriculaciones en primer año: UdelaR,2020-08-26 05:04:58.013328,esperando_respuesta,matriculaciones_en_primer_ano_ud,Administración Nacional de Educación Pública - Contacto General
 Gastos Anuales de Energía eléctrica a complejos deportivos y gastos anuales en publicidad con deportistas uruguayos,2017-04-06 12:54:24.244256,esperando_respuesta,gastos_anuales_de_energia_electr,Administración Nacional de Usinas y Trasmisiones Eléctricas
 Solicitud de información de Asistentes Sociales y/o Lic. en Trabajo Social,2014-07-07 20:44:19.488698,no_retenido,solicitud_de_informacin_de_asist_13,Administración Nacional de Usinas y Trasmisiones Eléctricas
 Información sobre contratos y precios mayoristas,2018-01-12 18:58:57.847997,esperando_respuesta,informacion_sobre_contratos_y_pr,Administración Nacional de Usinas y Trasmisiones Eléctricas
@@ -63,6 +74,8 @@ Información sobre contratos y precios mayoristas,2018-01-12 18:58:57.847997,esp
 Detalle de deudores de la categoría Grandes consumidores y valores adeudados,2012-10-09 17:00:27.783994,rechazado,detalle_de_deudores_de_la_catego,Administración Nacional de Usinas y Trasmisiones Eléctricas
 listado de empresas nacionales e internacionales que tengan contrato con esta Administración,2016-02-01 18:30:10.02492,,listado_de_empresas_nacionales_e,Administración Nacional de Usinas y Trasmisiones Eléctricas
 Sociedades anónimas con participación de capital de UTE,2013-12-15 11:26:10.042733,rechazado,sociedades_annimas_con_participa,Administración Nacional de Usinas y Trasmisiones Eléctricas
+Solicitud de información sobre contrato de trabajo en la Unidad de Inclusión Social Regional Norte,2020-06-03 14:01:10.481743,esperando_respuesta,solicitud_de_informacion_sobre_c_5,Administración Nacional de Usinas y Trasmisiones Eléctricas
+Ubicación del cableado bajo vereda en calle Frugoni,2020-06-16 15:19:49.850139,rechazado,ubicacion_del_cableado_bajo_vere_2,Administración Nacional de Usinas y Trasmisiones Eléctricas
 Solicitud de información de Asistentes Sociales y/o Lic. en Trabajo Social.,2014-07-13 01:11:36.789296,exitoso,solicitud_de_informacin_de_asist_23,Administración de las Obras Sanitarias del Estado
 Análisis realizados en Laguna del Sauce,2016-10-07 16:15:51.223497,exitoso,analisis_realizados_en_laguna_de,Administración de las Obras Sanitarias del Estado
 Gastos de Apoyo a Deportistas,2017-05-11 12:46:02.732598,esperando_respuesta,gastos_de_apoyo_a_deportistas_6,Administración de las Obras Sanitarias del Estado
@@ -73,11 +86,17 @@ Anàlisis realizados en Rio Santa Lucìa,2013-04-26 21:07:21.967027,exitoso,anli
 "Resultados detallados de análisis químicos del agua para consumo humano, desde diciembre 2012 a marzo 2013 inclusive.",2013-04-04 02:54:32.986723,terminado_por_usuario,resultados_detallados_de_anlisis,Administración de las Obras Sanitarias del Estado
 Resultados detallados de los análisis químicos del agua corriente para consumo humano desde diciembre de 2012 a marzo de 2013 inclusive.,2013-04-04 16:00:23.763247,exitoso,resultados_detallados_de_los_anl,Administración de las Obras Sanitarias del Estado
 Sociedades anónimas con participación de OSE,2013-12-15 11:32:24.352442,exitoso,sociedades_annimas_con_participa_2,Administración de las Obras Sanitarias del Estado
+Ubicación del caños bajo vereda en calle Frugoni,2020-06-16 15:20:41.456701,esperando_respuesta,ubicacion_del_canos_bajo_vereda,Administración de las Obras Sanitarias del Estado
+Consulta sobre llamados a cargos de funcionarios en el correr de los años 2019 y 2020,2020-06-11 20:29:32.251989,exitoso,consulta_sobre_llamados_a_cargos,Administración de las Obras Sanitarias del Estado
+Solicitud sobre acceso a la información pública,2020-06-29 19:28:06.034831,exitoso,solicitud_sobre_acceso_a_la_info,Administración de las Obras Sanitarias del Estado
+Estadísticas acerca de la hospitalización psiquiátrica en Uruguay.,2020-08-27 21:27:49.138541,esperando_respuesta,estadisticas_acerca_de_la_hospit,Administración de los Servicios de Salud del Estado
 Investigaciones vinculadas con la relación estado sociedad civil,2015-04-23 23:27:47.51767,esperando_respuesta,investigaciones_vinculadas_con_l,Agencia Nacional de Investigación e Innovación
 Publicaciones de Investigaciones,2016-02-07 15:25:44.528087,esperando_respuesta,publicaciones_de_investigaciones,Agencia Nacional de Investigación e Innovación
+Liberación del código del GRP contratado en 2014,2020-10-22 14:08:47.02051,esperando_respuesta,liberacion_del_codigo_del_grp_co,Agencia Para El Desarrollo Del Gobierno De Gestión Electrónica Y La Sociedad De La Información Y Del Conocimiento
 Listado de empresas multinacionales que tengan contrato con el Estado uruguayo,2015-08-26 14:06:14.924802,no_retenido,listado_de_empresas_multinaciona_14,Agencia de Compras y Contrataciones del Estado
 Solicitud de información de compras estatales 2018 del rubro impresoras e insumos para las mismas,2019-04-23 00:01:55.432916,exitoso,solicitud_de_informacion_de_comp,Agencia de Compras y Contrataciones del Estado
 Información sobre proveedores del Estado,2020-03-12 13:26:13.908324,exitoso,informacion_sobre_proveedores_de,Agencia de Compras y Contrataciones del Estado
+Información sobre proveedores del Estado,2021-02-16 14:14:19.682584,parcialmente_exitoso,informacion_sobre_proveedores_de_2,Agencia de Compras y Contrataciones del Estado
 Números de Puerta | Uruguay,2016-09-13 17:30:45.992757,esperando_respuesta,numeros_de_puerta_uruguay,Agencia para el Desarrollo del Gobierno de Gestión Electrónica y la Sociedad de la Información y del Conocimiento (AGESIC)
 Datos de puntos de venta y kioskos del mercado retail con sus respectivas referencias geográficas.,2017-06-23 13:27:46.124079,no_retenido,datos_de_puntos_de_venta_y_kiosk,Agencia para el Gobierno Electronico y la Sociedad de la Informacion
 Manual para uso de redes sociales como medios de comunicación oficial gubernamental,2012-10-03 16:21:28.66931,no_retenido,manual_para_uso_de_redes_sociale,Agencia para el Gobierno Electronico y la Sociedad de la Informacion
@@ -85,10 +104,13 @@ Trámites online,2016-02-10 13:11:35.200031,parcialmente_exitoso,tramites_online
 Acceso a expediente donde se registraron las deliberaciones para el premio a la Transparencia,2012-12-06 14:51:16.343558,exitoso,acceso_a_expediente_donde_se_reg,Agencia para el Gobierno Electronico y la Sociedad de la Informacion
 Tramites online,2016-02-07 15:21:53.602208,terminado_por_usuario,tramites_online,Agencia para el Gobierno Electronico y la Sociedad de la Informacion
 todo sobre Ema Silvia Vila Guerra,2012-10-03 23:52:08.528607,rechazado,todo_sobre_ema_silvia_vila_guerr,Archivo General de la Nación
+Solicitud de información sobre llamados a cargo de funcionarios en el correr del año 2020 y 2019.,2020-06-11 14:58:30.339697,por_correo,solicitud_de_informacion_sobre_l_2,Archivo General de la Nación
+Pedido de informaciòn,2020-06-17 21:16:06.82599,exitoso,pedido_de_informacion,Archivo General de la Nación
 Prueba de correo AIN,2014-04-11 14:52:18.704374,esperando_respuesta,prueba_de_correo_ain,Auditoría Interna de la Nación
 Pedido de informe de Auditoría de los Fondos de Incentivo Cultural,2019-08-12 20:43:56.328637,esperando_respuesta,pedido_de_informe_de_auditoria_d,Auditoría Interna de la Nación
 Consulta sobre titulares de accciones de sociedades anonimas,2016-01-08 14:00:43.090352,por_correo,consulta_sobre_titulares_de_accc,Banco Central del Uruguay
 Consulta sobre investigación,2014-05-19 22:54:37.749642,parcialmente_exitoso,consulta_sobre_investigacin,Banco Central del Uruguay
+Información sobre pedidos de acceso a la información.,2021-06-11 20:09:53.801647,esperando_respuesta,informacion_sobre_pedidos_de_acc_6,Banco Hipotecario del Uruguay
 Jubilaciones a deportistas,2017-05-11 19:17:07.657265,esperando_respuesta,jubilaciones_a_deportistas,Banco de Previsión Social
 Algoritmos y Métodos de determinación de pasividades,2018-03-09 14:18:51.804976,esperando_respuesta,algoritmos_y_metodos_de_determin,Banco de Previsión Social
 Métodos estadísticos y algoritmos utilizados para determinación seguro de desempleo,2018-03-09 14:30:50.192227,esperando_respuesta,metodos_estadisticos_y_algoritmo,Banco de Previsión Social
@@ -98,10 +120,12 @@ Información sobre investigaciones en pensiones y jubilaciones fraudulentas,2015
 Consulta sobre Decreto 127/014,2019-09-10 13:48:18.885527,esperando_respuesta,consulta_sobre_decreto_127014,Banco de Previsión Social
 Gastos de Apoyo a Deportistas,2017-04-03 16:00:15.263912,exitoso,gastos_de_apoyo_a_deportistas_3,Banco de Seguros del Estado
 "Inversión en apoyo a deportistas, discriminado por deportista",2018-10-16 13:21:38.939546,rechazado,inversion_en_apoyo_a_deportistas,Banco de Seguros del Estado
+Información sobre pedidos de acceso a la información.,2021-06-11 20:08:50.164928,esperando_respuesta,informacion_sobre_pedidos_de_acc_4,Banco de Seguros del Estado
 Gastos de Apoyo a Deportistas,2017-04-07 12:15:19.732248,exitoso,gastos_de_apoyo_a_deportistas_5,Banco de la República Oriental del Uruguay
 Información sobre la residencia presidencial de Punta del Este,2017-06-05 01:51:55.84643,rechazado,informacion_sobre_la_residencia_2,Banco de la República Oriental del Uruguay
 Información sobre la residencia presidencial de Punta del Este,2017-08-23 21:40:28.515818,esperando_respuesta,informacion_sobre_la_residencia_3,Banco de la República Oriental del Uruguay
 Solicitud de Información sobre Convenio CJPPU/Inmobiliaria FOTI y sobre Convenio CJPPU/FORESTADORA ORIENTAL - UPM,2016-08-12 04:06:15.791263,,solicitud_de_informacion_sobre_c_3,Caja Jubilaciones Y Pensiones Profesionales Universitarios
+Cantidad de solicitudes recibidas por la institución sobre acceso a la información en el ejercicio 2020,2021-06-12 02:09:08.905579,esperando_respuesta,cantidad_de_solicitudes_recibida_5,Caja Notarial de Seguridad Social
 Viajes y viáticos de diputados en 2015 y 2016,2017-06-22 23:50:18.662646,revision_interna,viajes_y_viaticos_de_diputados_e,Camara de Diputados
 Texto del proyecto de ley de despenalización del aborto aprobado el 25/sep,2012-10-17 14:00:13.361332,esperando_respuesta,texto_del_proyecto_de_ley_de_des,Camara de Diputados
 Balance y Gastos de la cámara de Diputados,2012-10-12 17:42:25.254653,esperando_respuesta,balance_y_gastos_de_la_cmara_de,Camara de Diputados
@@ -112,6 +136,8 @@ Solicitud deinformacion sobre la operacion de rescate del buque surcoreano Stell
 Listado de empresas multinacionales que tengan contrato con el Estado uruguayo,2015-08-26 13:45:34.732316,esperando_respuesta,listado_de_empresas_multinaciona_7,Comando General de la Armada
 Cantidad de inscripciones en los años 2009-2010-2011-2012,2012-10-06 20:56:50.707552,rechazado,cantidad_de_inscripciones_en_los_2,Comando General de la Armada
 Información sobre el decreto ley nº 14373,2019-06-26 22:33:21.995308,esperando_respuesta,informacion_sobre_el_decreto_ley,Comando General de la Armada
+Solicitudes pedido de informacion en 2019.,2020-06-23 21:13:39.609162,,solicitudes_pedido_de_informacio_2,Comando General de la Armada
+Pedido de información sobre ayuda humanitaria a barcos extranjeros,2020-10-09 21:44:17.285114,esperando_respuesta,pedido_de_informacion_sobre_ayud,Comando General de la Armada
 Cantidad de inscripciones en los años 2009-2010-2011-2012,2012-10-06 20:56:46.022234,rechazado,cantidad_de_inscripciones_en_los,Comando General de la Fuerza Aérea
 Flota en Operacion de la Fuerza Aerea Uruguaya,2018-12-04 20:05:02.992521,esperando_respuesta,flota_en_operacion_de_la_fuerza,Comando General de la Fuerza Aérea
 Puesta en marcha del sistema de votación electrónica en el Parlamento,2017-12-16 10:58:36.568521,esperando_respuesta,puesta_en_marcha_del_sistema_de,Comision Administradora del Poder Legislativo
@@ -119,6 +145,7 @@ Resoluciòn del llamado a licitaciòn para la restauraciòn traslado y ubicaciò
 Presupuesto y balance del Poder Legislativo,2012-10-12 17:45:13.429336,esperando_respuesta,presupuesto_y_balance_del_poder,Comision Administradora del Poder Legislativo
 Acceso al archivo fotográfico,2012-12-05 17:47:44.986775,esperando_respuesta,acceso_al_archivo_fotogrfico,Comision Administradora del Poder Legislativo
 "Llamado a Expresión de interés para el desmontaje, traslado, montaje y restauración de tres maquetas del Edificio Palacio Legislativo. Resultados del llamado, diferentes proyectos y sus valores.",2012-11-02 20:38:28.410993,esperando_respuesta,llamado_a_expresin_de_inters_par,Comision Administradora del Poder Legislativo
+Cantidad de solicitudes recibidas por la institución sobre acceso a la información en el ejercicio 2020,2021-06-12 01:41:47.599024,esperando_respuesta,cantidad_de_solicitudes_recibida,Comisión Honoraria Lucha Contra el Cáncer
 Cantidad de Plazas deportivas y presupuesto de las mismas,2017-04-04 04:03:28.222687,esperando_respuesta,cantidad_de_plazas_deportivas_y,Congreso de Intendentes
 patente de rodado AOF,2013-01-17 23:41:42.417327,rechazado,patente_de_rodado_aof,Congreso de Intendentes
 "Se solicita información sobre datos disponibles sobre estudiantes con discapacidad en UTU, matrículas del año 2015 y accesibilidad",2016-04-18 18:42:03.619339,esperando_respuesta,se_solicita_informacion_sobre_da_3,Consejo De Educación Técnico Profesional
@@ -156,6 +183,7 @@ Derecho del consumidor.,2012-11-28 20:26:42.814544,esperando_respuesta,derecho_d
 Fraudes o pagos mal realizadas en las compras por Internet,2019-02-19 20:09:48.607945,esperando_respuesta,fraudes_o_pagos_mal_realizadas_e,Defensa del Consumidor
 Pedido de Acceso,2012-10-10 13:17:44.972299,esperando_respuesta,pedido_de_acceso,Direccion Contralor de Semovientes
 Envieme acceso al Listado de Marcas y Señales,2013-11-12 20:27:12.320074,no_retenido,envieme_acceso_al_listado_de_mar,Direccion Contralor de Semovientes
+Información sobre pedidos de acceso a la información.,2021-06-11 18:44:10.146897,esperando_respuesta,informacion_sobre_pedidos_de_acc_3,Direccion General de informacion e Inteligencia
 Solicitud de acceso a la información.,2016-05-31 14:52:46.026772,por_correo,solicitud_de_acceso_a_la_informa,Direccion Nacional Recursos Acuaticos
 Escaleras y áreas de rescate en edificios de uso público.,2017-04-24 18:33:13.500781,esperando_respuesta,escaleras_y_areas_de_rescate_en_2,Direccion Nacional de Bomberos
 Normativa sobre quemas,2012-10-04 04:11:39.222503,parcialmente_exitoso,normativa_sobre_quemas,Direccion Nacional de Bomberos
@@ -164,25 +192,7 @@ Información sobre Asistentes Sociales,2014-05-31 21:10:46.514823,no_retenido,in
 Informe sobre Estado de situación de Alas Uruguay,2016-08-04 03:07:05.918062,por_correo,informe_sobre_estado_de_situacio,Direccion Nacional de aviacion civil e infraestructura aeronautica
 Minimo estipulado para pago con debito,2016-05-10 18:33:24.391185,esperando_respuesta,minimo_estipulado_para_pago_con,Dirección General Impositiva
 Informe de resultados al Cierre de campaña de IRPF  y IASS 2017,2018-12-05 17:09:05.317551,esperando_respuesta,informe_de_resultados_al_cierre,Dirección General Impositiva
-Investigación de violaciones a los derechos humanos durante el terrorismo de Estado,2016-02-07 15:12:49.565201,,investigacion_de_violaciones_a_l,Dirección General de Presidencia de la República
-Información sobre la residencia presidencial de Punta del Este,2017-06-05 01:43:41.891704,esperando_respuesta,informacion_sobre_la_residencia,Dirección General de Presidencia de la República
-Información sobre la venta de la residencia presidencial de Punta del Este,2017-06-05 01:47:36.177867,esperando_respuesta,informacion_sobre_la_venta_de_la,Dirección General de Presidencia de la República
-Información sobre terrenos expropiados para construcción de puerto de aguas profundas,2017-06-08 23:23:22.793755,,informacion_sobre_terrenos_expro,Dirección General de Presidencia de la República
-Información sobre terrenos expropiados para construcción de puerto de aguas profundas,2017-07-25 21:45:12.932833,no_retenido,informacion_sobre_terrenos_expro_2,Dirección General de Presidencia de la República
-Sueldo del Presidente y Vicepresidente.,2012-10-04 00:33:48.039601,exitoso,sueldo_del_presidente_y_vicepres,Dirección General de Presidencia de la República
-Jubilados porque subio la cuota del Fonasa,2012-10-06 21:26:48.773357,revision_interna,jubilados_porque_subio_la_cuota,Dirección General de Presidencia de la República
-Decretos y resoluciones con beneficios para el sector agropecuario,2012-12-05 17:41:09.667247,exitoso,decretos_y_resoluciones_con_bene,Dirección General de Presidencia de la República
-Solicitud de información de Asistentes Sociales y/o Lic. en Trabajo Social,2014-07-07 20:38:31.191509,exitoso,solicitud_de_informacin_de_asist_12,Dirección General de Presidencia de la República
-Misiones oficiales,2013-03-11 23:01:21.853385,terminado_por_usuario,misiones_oficiales,Dirección General de Presidencia de la República
-Informe sobre gastos en seguridad efectuados en la residencia del presidente,2013-04-22 15:36:19.509719,rechazado,informe_sobre_gastos_en_segurida,Dirección General de Presidencia de la República
-Copia del recibo de sueldo del Presidente,2013-02-13 15:55:08.934426,rechazado,copia_del_recibo_de_sueldo_del_p,Dirección General de Presidencia de la República
-Solicitud de proyecto del Nuevo Estatuto del Funcionario Público.,2012-10-17 03:37:00.309429,exitoso,solicitud_de_proyecto_del_nuevo,Dirección General de Presidencia de la República
-Vehiculos al servicio de Presidencia,2012-10-05 01:28:59.900704,parcialmente_exitoso,vehiculos_al_servicio_de_preside,Dirección General de Presidencia de la República
-Sueldo Presidente,2018-06-14 21:14:17.763497,exitoso,sueldo_presidente,Dirección General de Presidencia de la República
-Información sobre dinero recaudado,2019-03-11 14:11:58.354002,parcialmente_exitoso,informacion_sobre_dinero_recauda,Dirección General de Presidencia de la República
-Informacion sobre un acto publico organizado por Presidencia,2019-03-04 19:50:32.835555,revision_interna,informacion_sobre_un_acto_public,Dirección General de Presidencia de la República
-Comunicación oficial con el presidente de Estados Unidos.,2018-09-28 17:30:56.935693,esperando_respuesta,comunicacion_oficial_con_el_pres,Dirección General de Presidencia de la República
-Mundial 2030,2019-06-12 21:59:43.231794,exitoso,mundial_2030_2,Dirección General de Presidencia de la República
+Personas informadas IRPF,2020-07-04 23:30:16.465969,parcialmente_exitoso,personas_informadas_irpf,Dirección General Impositiva
 Listado de empresas multinacionales que tengan contrato con el Estado uruguayo,2015-08-24 19:10:34.964246,por_correo,listado_de_empresas_multinaciona_5,"Dirección General de Secretaría del Ministerio De Industria, Energía y Minería"
 Inversión en energía eléctrica,2015-08-04 12:57:24.732577,,inversion_en_energia_electrica,"Dirección General de Secretaría del Ministerio De Industria, Energía y Minería"
 Gastos de apoyo a deportistas uruguayos,2017-04-04 04:06:29.055298,exitoso,gastos_de_apoyo_a_deportistas_ur,"Dirección General de Secretaría del Ministerio De Industria, Energía y Minería"
@@ -205,6 +215,10 @@ Informe sobre cuales son los mecanismo  de control que posee el Plan CAIF.,2013-
 Uso vehículo oficiales MIDES,2015-02-02 14:22:02.065784,esperando_respuesta,uso_vehiculo_oficiales_mides,Dirección General de Secretaría del Ministerio de Desarrollo Social
 Convenio ortopedia,2018-12-21 23:11:18.71785,esperando_respuesta,convenio_ortopedia,Dirección General de Secretaría del Ministerio de Desarrollo Social
 Ciudad del Plata,2018-11-11 02:41:00.680423,esperando_respuesta,ciudad_del_plata_2,Dirección General de Secretaría del Ministerio de Desarrollo Social
+Gastos de actividades deportivas organizadas por el INJU 2005-2019,2020-06-16 14:20:29.506665,exitoso,gastos_de_actividades_deportivas,Dirección General de Secretaría del Ministerio de Desarrollo Social
+Pedido de informaciòn,2020-06-17 21:26:37.118998,exitoso,pedido_de_informacion_3,Dirección General de Secretaría del Ministerio de Desarrollo Social
+Información sobre Covid-19,2020-07-20 17:05:40.368892,esperando_respuesta,informacion_sobre_covid_19,Dirección General de Secretaría del Ministerio de Desarrollo Social
+Sistema de cuidados,2020-11-08 16:28:29.997702,esperando_respuesta,sistema_de_cuidados,Dirección General de Secretaría del Ministerio de Desarrollo Social
 policias,2012-10-03 16:18:11.78286,revision_interna,policias,Dirección General de Secretaría del Ministerio del Interior
 Estadísticas Delitos Informáticos,2016-08-10 13:39:10.665624,revision_interna,estadisticas_delitos_informatico,Dirección General de Secretaría del Ministerio del Interior
 Información recabada sobre casos de Ballena Azul,2017-05-29 18:42:25.885085,revision_interna,informacion_recabada_sobre_casos,Dirección General de Secretaría del Ministerio del Interior
@@ -239,24 +253,33 @@ Balas disparadas,2018-06-18 13:59:03.198727,,balas_disparadas,Dirección General
 Información Institucional sobre la Unidad N° 7 - (Canelones),2017-11-01 23:39:50.418996,revision_interna,informacion_institucional_sobre_3,Dirección General de Secretaría del Ministerio del Interior
 Datos sobre homicidios y feminicidios,2018-06-14 21:09:55.885622,esperando_respuesta,datos_sobre_homicidios_y_feminic,Dirección General de Secretaría del Ministerio del Interior
 Información sobre tobilleras electrónicas,2018-05-10 22:33:04.002085,esperando_respuesta,informacion_sobre_tobilleras_ele,Dirección General de Secretaría del Ministerio del Interior
+Petición estadísticas certificados de antecedentes judiciales,2019-04-01 13:20:37.87242,exitoso,peticion_estadisticas_certificad,Dirección General de Secretaría del Ministerio del Interior
 Respuesta del servicio 911,2019-01-07 16:17:17.007384,esperando_respuesta,respuesta_del_servicio_911,Dirección General de Secretaría del Ministerio del Interior
 Información sobre sistema de reconocimiento facial en los estadios de fútbol,2018-08-11 13:48:08.033508,esperando_respuesta,informacion_sobre_sistema_de_rec,Dirección General de Secretaría del Ministerio del Interior
-Petición estadísticas certificados de antecedentes judiciales,2019-04-01 13:20:37.87242,exitoso,peticion_estadisticas_certificad,Dirección General de Secretaría del Ministerio del Interior
-Información sobre tobilleras,2019-04-08 17:41:38.319591,esperando_respuesta,informacion_sobre_tobilleras,Dirección General de Secretaría del Ministerio del Interior
 Cantidad de cámaras de vigilancia instaladas por el Ministerio en nuestro país,2019-04-15 23:19:56.321213,exitoso,cantidad_de_camaras_de_vigilanci,Dirección General de Secretaría del Ministerio del Interior
-Petición estadísticas certificados de antecedentes judiciales,2019-04-01 13:26:54.291414,exitoso,peticion_estadisticas_certificad_2,Dirección General de Secretaría del Ministerio del Interior
-"Listado de crímenes cometidos en los últimos 3 años (ubicación, tipo y fecha/hora)",2019-08-26 20:13:47.585379,esperando_respuesta,listado_de_crimenes_cometidos_en,Dirección General de Secretaría del Ministerio del Interior
+Información sobre tobilleras,2019-04-08 17:41:38.319591,esperando_respuesta,informacion_sobre_tobilleras,Dirección General de Secretaría del Ministerio del Interior
 Datos sobre delitos informáticos,2019-07-09 19:56:27.962029,exitoso,datos_sobre_delitos_informaticos,Dirección General de Secretaría del Ministerio del Interior
+"Listado de crímenes cometidos en los últimos 3 años (ubicación, tipo y fecha/hora)",2019-08-26 20:13:47.585379,esperando_respuesta,listado_de_crimenes_cometidos_en,Dirección General de Secretaría del Ministerio del Interior
+Petición estadísticas certificados de antecedentes judiciales,2019-04-01 13:26:54.291414,exitoso,peticion_estadisticas_certificad_2,Dirección General de Secretaría del Ministerio del Interior
 Sistema de reconocimiento facial en las calles,2019-03-21 21:38:12.211998,exitoso,sistema_de_reconocimiento_facial,Dirección General de Secretaría del Ministerio del Interior
 Femicidios en el país,2018-07-19 23:00:31.221245,exitoso,femicidios_en_el_pais,Dirección General de Secretaría del Ministerio del Interior
-Solicitud de legajos,2020-02-08 13:35:04.275584,esperando_respuesta,solicitud_de_legajos,Dirección General de Secretaría del Ministerio del Interior
+Costo de patrullajes áereos en helicóptero,2020-05-18 14:34:21.831422,revision_interna,costo_de_patrullajes_aereos_en_h,Dirección General de Secretaría del Ministerio del Interior
+Cantidad de pedidos de acceso a la información pública / 2019,2020-06-10 16:00:47.280334,exitoso,cantidad_de_pedidos_de_acceso_a_2,Dirección General de Secretaría del Ministerio del Interior
 Solicitud de Acceso a la Información Pública,2020-04-14 14:03:29.755682,esperando_respuesta,solicitud_de_acceso_a_la_informa_8,Dirección General de Secretaría del Ministerio del Interior
 Solicitud de acceso a información,2020-04-13 18:02:03.068679,esperando_respuesta,solicitud_de_acceso_a_informacio,Dirección General de Secretaría del Ministerio del Interior
-Costo de patrullajes áereos en helicóptero,2020-05-18 14:34:21.831422,esperando_respuesta,costo_de_patrullajes_aereos_en_h,Dirección General de Secretaría del Ministerio del Interior
+Llamadas por violencia doméstica / de género,2020-06-06 14:52:19.939158,revision_interna,llamadas_por_violencia_domestica,Dirección General de Secretaría del Ministerio del Interior
+Solicitud de legajos,2020-02-08 13:35:04.275584,esperando_respuesta,solicitud_de_legajos,Dirección General de Secretaría del Ministerio del Interior
+Solicitud sobre acceso a la información pública,2020-06-29 19:38:35.077857,exitoso,solicitud_sobre_acceso_a_la_info_2,Dirección General de Secretaría del Ministerio del Interior
+Femicidio en el pais,2020-06-17 18:31:21.123365,,femicidio_en_el_pais,Dirección General de Secretaría del Ministerio del Interior
+Violencia obstétrica,2020-09-05 14:13:47.204039,esperando_respuesta,violencia_obstetrica,Dirección General de Secretaría del Ministerio del Interior
+Grooming (acoso pederasta),2021-04-22 15:31:16.278827,esperando_respuesta,grooming_acoso_pederasta,Dirección General de Secretaría del Ministerio del Interior
+Costo del cambio de imagen de la Policía Nacional,2020-10-19 14:41:15.395039,esperando_respuesta,costo_del_cambio_de_imagen_de_la,Dirección General de Secretaría del Ministerio del Interior
+Rotación PPL,2020-06-06 15:10:09.872249,exitoso,rotacion_ppl,Dirección General de Secretaría del Ministerio del Interior
+Suicidios,2021-04-03 18:40:06.888045,esperando_respuesta,suicidios,Dirección General de Secretaría del Ministerio del Interior
 emprendimientos  nuevos La Paloma,2012-10-03 17:24:48.002017,no_retenido,emprendimientos_nuevos_la_paloma,Dirección Nacional Arquitectura
 Información sobre el decreto ley nº 14373,2019-06-26 22:40:10.552541,esperando_respuesta,informacion_sobre_el_decreto_ley_2,Dirección Nacional De Inteligencia De Estado
-Solcitud acceso sobre ingreso de ciudadanos cubanos a Uruguay.,2020-03-09 16:24:53.419829,esperando_respuesta,solcitud_acceso_sobre_ingreso_de,Dirección Nacional De Migración
 Solciitud acceso,2020-01-27 19:57:31.996449,revision_interna,solciitud_acceso,Dirección Nacional De Migración
+Solcitud acceso sobre ingreso de ciudadanos cubanos a Uruguay.,2020-03-09 16:24:53.419829,esperando_respuesta,solcitud_acceso_sobre_ingreso_de,Dirección Nacional De Migración
 Cantidad de equipos Electrónicos y libros o revistas,2012-10-04 01:06:36.765983,revision_interna,cantidad_de_equipos_electrnicos,Dirección Nacional de Aduanas
 Cantidad de cigarrillos paraguayos importados del Paraguay - Marcas,2012-10-09 12:36:12.311594,esperando_respuesta,cantidad_de_cigarrillos_paraguay,Dirección Nacional de Aduanas
 Cantidad de importaciones de bebidas energizantes,2014-07-27 18:35:25.890467,esperando_respuesta,cantidad_de_importaciones_de_beb,Dirección Nacional de Aduanas
@@ -273,12 +296,14 @@ Estado Obras CANAL ANDREONI,2012-11-05 15:16:40.929556,esperando_respuesta,estad
 canal Andreoni,2013-11-27 19:29:39.110212,revision_interna,canal_andreoni,Dirección Nacional de Hidrografía
 Obras Canal Andreoni - La Coronilla - Rocha,2012-10-08 13:56:44.539943,rechazado,obras_canal_andreoni_la_coronill,Dirección Nacional de Hidrografía
 BATIMETRIA de la boca del Rosario,2019-11-28 13:46:36.526242,esperando_respuesta,batimetria_de_la_boca_del_rosari,Dirección Nacional de Hidrografía
+Pedidio de informacion,2020-06-17 21:21:01.674138,esperando_respuesta,pedidio_de_informacion,Dirección Nacional de Hidrografía
 Estadistica crímenes por ciudad en Uruguay,2012-10-03 23:19:17.267299,no_retenido,estadistica_crmenes_por_ciudad_e,Dirección Nacional de Identificación Civil (DNIC)
 Números de cédula emitidos por día,2018-11-09 18:57:11.956007,por_correo,numeros_de_cedula_emitidos_por_d,Dirección Nacional de Identificación Civil (DNIC)
 Total de documentos emitidos por día y oficina,2019-08-30 00:58:16.747155,exitoso,total_de_documentos_emitidos_por,Dirección Nacional de Identificación Civil (DNIC)
 Solicitud de información de Asistentes Sociales y/o Lic. en Trabajo Social,2014-07-07 20:49:28.402293,esperando_respuesta,solicitud_de_informacin_de_asist_14,Dirección Nacional de Telecomunicaciones y Servicios de  Comunicación Audiovisual
 planos del Forte di Makale,2013-05-02 02:48:37.561294,no_retenido,planos_del_forte_di_makale,Dirección Nacional de Topografía
 Estadísticas de caso de hipoacusia (perdida auditiva) laboral que se registran en Uruguay.,2019-08-08 16:18:37.201749,esperando_respuesta,estadisticas_de_caso_de_hipoacus,Dirección Nacional de Trabajo
+Pedido de informacion,2020-06-17 21:23:57.152183,esperando_respuesta,pedido_de_informacion_2,Dirección Nacional de Trabajo
 Saber el número de ómnibus que circulan con accesibilidad para sillas de ruedas,2013-10-03 19:57:21.365409,rechazado,saber_el_nmero_de_mnibus_que_cir,Dirección Nacional de Transporte
 "Solicitud de información sobre caminería en R10, Laguna Garzón, Rocha.",2016-02-18 20:20:04.899436,revision_interna,solicitud_de_informacion_sobre_c,Dirección Nacional de Vialidad
 "obras realizadas ruta 8, tramo Treinta y Tres - Cerro Largo (Melo)",2012-10-04 05:03:46.488656,parcialmente_exitoso,obras_realizadas_ruta_8_tramo_tr,Dirección Nacional de Vialidad
@@ -291,6 +316,7 @@ Solicitud de información de Asistentes Sociales y/o Lic. en Trabajo Social,2014
 Solicitud de reglamentos que regula la visita a los establecimientos carcelarios,2017-01-02 18:49:11.241254,esperando_respuesta,solicitud_de_reglamentos_que_reg,Instituto Nacional De Rehabilitación
 "Datos vinculados a la salud mental en la Unidad Nº4 Santiago Vázquez y en la Unidad Nº5 ""Femenina""",2017-10-23 13:05:05.970195,esperando_respuesta,datos_vinculados_a_la_salud_ment,Instituto Nacional De Rehabilitación
 Cantidad de solicitudes de acceso a la información pública y capacitación del personal,2015-10-08 22:43:12.022628,exitoso,cantidad_de_solicitudes_de_acces,Instituto Nacional de Calidad
+Cantidad de solicitudes recibidas por la institución sobre acceso a la información en el ejercicio 2020,2021-06-12 01:51:30.224509,esperando_respuesta,cantidad_de_solicitudes_recibida_2,Instituto Nacional de Carnes
 "Desempleados 2009 - 2012 en Empalme Olmos, Blanquillos, Villa La Montañesa, Pando",2012-10-11 00:21:39.045871,no_retenido,desempleados_2009_2012_en_empalm,Instituto Nacional de Estadistica
 Solicitud de datos de la ciudad de Carmelo,2012-11-11 04:01:30.937353,parcialmente_exitoso,solicitud_de_datos_de_la_ciudad,Instituto Nacional de Estadistica
 Modelo Estadístico Determinación Inflación,2018-03-09 14:15:35.289385,parcialmente_exitoso,modelo_estadistico_determinacion,Instituto Nacional de Estadistica
@@ -305,6 +331,7 @@ Trinidad y carmelo informe de población.,2013-02-27 14:47:27.684819,rechazado,t
 Ciudad de Las Piedras,2012-12-07 15:03:37.902619,exitoso,ciudad_de_las_piedras,Instituto Nacional de Estadistica
 Cuantos habitantes tienen las segundas ciudades departamentales a 2012,2012-10-11 15:06:56.144778,exitoso,cuantos_habitantes_tienen_las_se_2,Instituto Nacional de Estadistica
 Información sobre funcionarios de los hogares de reclusión adolescente,2017-08-29 01:04:58.770731,exitoso,informacion_sobre_funcionarios_d_2,Instituto Nacional de Inclusión Social Adolescente
+Cantidad de solicitudes recibidas por la institución sobre acceso a la información en el ejercicio 2020,2021-06-12 01:59:26.481661,esperando_respuesta,cantidad_de_solicitudes_recibida_3,Instituto Nacional de Investigación Agropecuaria
 Información Institucional sobre la Unidad N° 7 - (Canelones),2017-10-02 15:41:19.365879,no_retenido,informacion_institucional_sobre,Instituto Nacional de Rehabilitacion
 Operadores penitenciarios de la Unidad 1 Cárcel Punta de Rieles,2018-05-06 14:22:03.680067,exitoso,operadores_penitenciarios_de_la,Instituto Nacional de Rehabilitacion
 Cantidad de solicitudes de acceso a la información pública y capacitación del personal,2015-10-08 22:52:36.749431,esperando_respuesta,cantidad_de_solicitudes_de_acces_2,Instituto Nacional del Nino y el Adolescente del Uruguay
@@ -316,6 +343,7 @@ Notificar acerca del destino de los gastos que realizó el INAU en 2012,2013-04-
 Solicitud de información de Asistentes Sociales y/o Lic. en Trabajo Social.,2014-07-06 02:35:34.882182,revision_interna,solicitud_de_informacin_de_asist_10,Instituto Nacional del Nino y el Adolescente del Uruguay
 Programa Centros de Primera Infancia,2016-02-09 22:56:24.763895,esperando_respuesta,programa_centros_de_primera_infa,Instituto Nacional del Nino y el Adolescente del Uruguay
 Ciudad del Plata,2018-11-11 02:34:28.110062,esperando_respuesta,ciudad_del_plata,Instituto Nacional del Nino y el Adolescente del Uruguay
+Cantidad de solicitudes recibidas por la institución sobre acceso a la información en el ejercicio 2020,2021-06-12 02:14:09.8532,exitoso,cantidad_de_solicitudes_recibida_6,Instituto de Regulación y Control del Cannabis
 "Pedido de Presupuesto quinquenal, Plan de Obras y Decretos",2016-05-25 13:07:24.694708,esperando_respuesta,pedido_de_presupuesto_quinquenal,Intendencia Departamental de Canelones
 Nómina de cargos de confianza del Intendente de Canelones y la respectiva formación académica de cada integrante del mismo.,2016-03-04 14:41:22.133535,esperando_respuesta,nomina_de_cargos_de_confianza_de,Intendencia Departamental de Canelones
 Solicitud de información de Asistentes Sociales y/o Lic. en Trabajo Social,2014-07-07 20:57:23.514464,revision_interna,solicitud_de_informacin_de_asist_16,Intendencia Departamental de Canelones
@@ -335,6 +363,8 @@ Documento por el cual la Intendencia adquirió el padrón N° 3232 de Ciudad de 
 Documento por el cual la Intendencia adquirió el padrón N° 2366 de Santa Lucía,2013-11-18 14:12:01.966624,revision_interna,documento_por_el_cual_la_intende,Intendencia Departamental de Canelones
 Convenio o contrato suscrito con la empresa EQUIFAX - clearing de informes,2013-05-14 16:38:40.790398,rechazado,convenio_o_contrato_suscrito_con,Intendencia Departamental de Canelones
 Cantidad de Motos empadronadas en Canelones desde 2010 a la Fecha,2013-12-02 19:12:49.549789,por_correo,cantidad_de_motos_empadronadas_e_2,Intendencia Departamental de Canelones
+Registro de empresas alimentarias,2020-06-11 04:04:15.785031,exitoso,registro_de_empresas_alimentaria,Intendencia Departamental de Canelones
+Información sobre pedidos de acceso a la información.,2021-06-11 20:09:22.598329,exitoso,informacion_sobre_pedidos_de_acc_5,Intendencia Departamental de Canelones
 "Pedido de Presupuesto quinquenal, Plan de Obras y Decretos",2016-05-25 13:08:35.286115,esperando_respuesta,pedido_de_presupuesto_quinquenal_2,Intendencia Departamental de Flores
 Trabajo de ediles y remuneración de los mismos.,2016-03-14 17:10:40.290532,revision_interna,trabajo_de_ediles_y_remuneracion,Intendencia Departamental de Flores
 "GOMERIA, exigencias para habilitacion de local",2019-06-18 13:41:39.768744,esperando_respuesta,gomeria_exigencias_para_habilita,Intendencia Departamental de Flores
@@ -347,10 +377,13 @@ SOLICITUD DE ACCESO A LA INFORMACIÓN - Declaratorias de Interés Dptal y montos
 Rendición de Cuentas anual de la gestión municipal 2009-2011,2015-03-20 20:50:56.956502,,rendicion_de_cuentas_anual_de_la_4,Intendencia de Durazno
 Rendición de Cuentas anual de la gestión municipal 2009-2011,2015-03-18 21:30:09.768502,,rendicion_de_cuentas_anual_de_la_3,Intendencia de Durazno
 Solicitud de Acceso a la Información Pública - Declaratoria de Interés Departamental y montos exonerados,2018-07-09 04:01:10.579261,esperando_respuesta,solicitud_de_acceso_a_la_informa_4,Intendencia de Durazno
-Declaratorias de interés departamental,2020-04-13 20:44:46.889302,esperando_respuesta,declaratorias_de_interes_departa,Intendencia de Durazno
+Declaratorias de interés departamental,2020-04-13 20:44:46.889302,parcialmente_exitoso,declaratorias_de_interes_departa,Intendencia de Durazno
+Inmuebles y funcionarios de la Intendencia de Durazno,2020-12-15 15:29:35.304687,revision_interna,inmuebles_y_funcionarios_de_la_i,Intendencia de Durazno
 Solicitud de información de Asistentes Sociales y/o Lic. en Trabajo Social,2014-07-13 01:07:27.150423,revision_interna,solicitud_de_informacin_de_asist_22,Intendencia de Maldonado
 Información Sobre Carnaval de San Carlos,2017-03-01 02:59:57.584593,terminado_por_usuario,informacion_sobre_carnaval_de_sa,Intendencia de Maldonado
 Cantidad de Motos empadronadas en Maldonado desde 2010 a la Fecha,2013-12-02 19:15:13.167734,esperando_respuesta,cantidad_de_motos_empadronadas_e_3,Intendencia de Maldonado
+Registro de empresas alimentarias,2020-06-11 04:06:24.69351,rechazado,registro_de_empresas_alimentaria_2,Intendencia de Maldonado
+Solicitud permisos de obra para instalación de fibra óptica,2020-07-02 15:46:29.233087,esperando_respuesta,solicitud_permisos_de_obra_para,Intendencia de Maldonado
 Ubicación geográfica de Parkings en Montevideo,2015-08-14 12:24:46.722385,no_retenido,ubicacion_geografica_de_parkings,Intendencia de Montevideo
 Accesibilidad Universal - Permisos de Construcción,2016-06-09 13:58:34.07726,parcialmente_exitoso,accesibilidad_universal_permisos,Intendencia de Montevideo
 Solicitud de Información sobre juegos inclusivos colocados en los espacios públicos de Montevideo,2017-03-14 19:41:35.616878,parcialmente_exitoso,solicitud_de_informacion_sobre_j,Intendencia de Montevideo
@@ -404,9 +437,15 @@ Número de denuncias registradas en 2011 con respecto a las emisiones radiales y
 Espacios públicos para deportes,2017-04-04 04:22:35.484433,exitoso,espacios_publicos_para_deportes,Intendencia de Montevideo
 Durante 2018 cuantas multas de tránsito fueron recurridas ante La Comisión Asesora de Descargos y cuantas resoluciones fueron desfavorables para quien recurrió.,2019-02-12 22:38:23.047505,,durante_2018_cuantas_multas_de_t,Intendencia de Montevideo
 Balance financiero,2018-07-16 20:33:16.760998,,balance_financiero,Intendencia de Montevideo
-Volumenes de Transito en Montevideo en el 2018-2019 medidos por camaras de conteo vehicular (registros completos),2019-09-05 16:43:47.781027,por_correo,volumenes_de_transito_en_montevi,Intendencia de Montevideo
 Camiones de limpieza,2019-08-22 22:24:37.189646,,camiones_de_limpieza,Intendencia de Montevideo
+Volumenes de Transito en Montevideo en el 2018-2019 medidos por camaras de conteo vehicular (registros completos),2019-09-05 16:43:47.781027,por_correo,volumenes_de_transito_en_montevi,Intendencia de Montevideo
 Obligatoriedad de Encargado en pensiones,2020-05-12 22:48:15.134841,esperando_respuesta,obligatoriedad_de_encargado_en_p,Intendencia de Montevideo
+Cantidad de solicitudes pedido de informacion en 2019.,2020-06-23 21:18:32.161151,,cantidad_de_solicitudes_pedido_d,Intendencia de Montevideo
+Detalle de inspecciones y sanciones por no respetar protocolos COVID–19,2020-08-18 15:20:50.240518,,detalle_de_inspecciones_y_sancio,Intendencia de Montevideo
+Gestión de residuos en el Mercado Agrícola,2020-12-03 15:38:50.361127,revision_interna,gestion_de_residuos_en_el_mercad,Intendencia de Montevideo
+Información sobre pedidos de acceso a la información.,2021-06-02 04:54:52.054326,esperando_respuesta,informacion_sobre_pedidos_de_acc_2,Intendencia de Montevideo
+Solicitudes de acceso a la información pública durante el año 2020,2021-06-11 14:34:34.397987,esperando_respuesta,solicitudes_de_acceso_a_la_infor_2,Intendencia de Montevideo
+"Solicitud de la cantidad de pedidos de acceso a la información recibidos en esa Institución, durante el ejercicio 2020.",2021-06-29 21:54:32.517612,esperando_respuesta,solicitud_de_la_cantidad_de_pedi,Intendencia de Montevideo
 Solicitud de información sobre pagos y contrataciones a Medios de Comunicación por parte de la Intendencia de Salto desde el 10/07/2015,2016-04-03 22:03:52.10952,esperando_respuesta,solicitud_de_informacion_sobre_p,Intendencia de Salto
 Contaminación por plomo,2019-05-06 18:35:02.977906,esperando_respuesta,contaminacion_por_plomo,Intendencia de Salto
 Holding pen,2012-09-30 13:35:03.990027,esperando_respuesta,holding_pen,Internal admin authority
@@ -422,6 +461,7 @@ Drogas en espectaculos deportivos,2017-04-07 02:20:57.468248,esperando_respuesta
 Destino del dinero y bienes incautados,2013-05-13 02:22:04.838213,rechazado,destino_del_dinero_y_bienes_inca,Junta Nacional de Drogas
 Solicitud de información de Asistentes Sociales y/o Lic. en Trabajo Social.,2014-05-31 21:43:54.865489,exitoso,solicitud_de_informacin_de_asist_5,Junta Nacional de Drogas
 Informe gestión 2013 -2014 de la Junta Departamental de San José,2018-05-30 22:24:08.221958,esperando_respuesta,informe_gestion_2013_2014_de_la,Junta de Transparencia y Ética Pública
+Cantidad de solicitudes recibidas por la institución sobre acceso a la información en el ejercicio 2020,2021-06-12 02:04:03.973961,esperando_respuesta,cantidad_de_solicitudes_recibida_4,Mevir
 Cantidad de inscripciones en los años 2009-2010-2011-2012,2012-10-06 20:56:55.14392,rechazado,cantidad_de_inscripciones_en_los_3,Ministerio  Defensa Nacional Ejercito
 Solicitud de información de Asistentes Sociales.,2014-05-31 21:15:46.437889,exitoso,solicitud_de_informacin_de_asist,Ministerio de Defensa
 Reglamentacion de reincorporacion al ejercito de profesional de la salud retirada,2012-10-04 11:25:14.823253,revision_interna,reglamentacion_de_reincorporacio,Ministerio de Defensa
@@ -456,6 +496,11 @@ Régimen de contratación de la librería ubicada en la biblioteca nacional,2014
 Registro de Terreno en Maldonado - Playa Grande,2013-06-03 00:16:16.847176,rechazado,registro_de_terreno_en_maldonado_2,Ministerio de Educación y Cultura
 "Porcentaje de ausentismo docente en secundaria, en 2012 y lo que va de 2013",2013-10-08 14:39:51.713599,por_correo,porcentaje_de_ausentismo_docente,Ministerio de Educación y Cultura
 Cobertura Nacional a TV Sodre y Radiodifusión Nacional de Uruguay,2016-02-07 15:10:34.441288,por_correo,cobertura_nacional_a_tv_sodre_y,Ministerio de Educación y Cultura
+Cantidad de pedidos de acceso a la información pública / 2019,2020-06-10 14:40:48.142789,esperando_respuesta,cantidad_de_pedidos_de_acceso_a,Ministerio de Educación y Cultura
+Listado de escuelas públicas y privadas de Uruguay,2020-08-29 14:31:42.027606,esperando_respuesta,listado_de_escuelas_publicas_y_p,Ministerio de Educación y Cultura
+Matriculaciones en primer año: UdelaR,2020-08-26 05:08:06.208821,rechazado,matriculaciones_en_primer_ano_ud_2,Ministerio de Educación y Cultura
+Matriculación de estudiantes en UdelaR,2020-08-26 13:08:15.92702,esperando_respuesta,matriculacion_de_estudiantes_en_2,Ministerio de Educación y Cultura
+Ranking de 15 empresas editoriales escolares que participen mayoritariamente en proyectos educativos,2020-08-29 14:36:12.03776,rechazado,ranking_de_15_empresas_editorial,Ministerio de Educación y Cultura
 Acceso a informe de consultoría sobre imagen de MGAP,2016-04-21 12:38:56.543698,rechazado,acceso_a_informe_de_consultoria,Ministerio de Ganaderia Agricultura y Pesca
 Solicitud de indicadores para tesis de Maestría en Información y Comunicación,2016-09-06 12:04:16.746957,parcialmente_exitoso,solicitud_de_indicadores_para_te,Ministerio de Ganaderia Agricultura y Pesca
 Estadísticas de comercialización vacuna,2016-06-12 14:35:36.050364,por_correo,estadisticas_de_comercializacion,Ministerio de Ganaderia Agricultura y Pesca
@@ -523,12 +568,27 @@ Indice de diabetes,2019-03-12 02:16:57.060122,exitoso,indice_de_diabetes,Ministe
 Convenio entre Uruguay y Cuba,2018-12-21 22:07:26.784878,esperando_respuesta,convenio_entre_uruguay_y_cuba,Ministerio de Salud Pública
 Se solicita conocer que dispositivos de detección de THC cuentan con registro vigente ante el Ministerio de Salud,2018-08-06 13:30:46.871327,exitoso,se_solicita_conocer_que_disposit,Ministerio de Salud Pública
 Se solicita conocer el registro de infractores que lleva el MSP de acuerdo a la Ley de Control de Tabaquismo N° 18.256 del año 2006.,2017-06-20 14:46:28.865835,exitoso,se_solicita_conocer_el_registro,Ministerio de Salud Pública
+"Certificaciones por enfermedad de funcionarios del Hospital Escuela del Litoral ""Galán y Rocha"" y Hospital regional Salto",2019-12-03 20:19:33.649554,no_retenido,certificaciones_por_enfermedad_d,Ministerio de Salud Pública
 Participación en el mecanismo de negociación conjunta de precios de medicamentos de alto costo del MERCOSUR,2019-11-07 15:37:32.645477,exitoso,participacion_en_el_mecanismo_de,Ministerio de Salud Pública
 Compra y consumo a nivel nacional de medicamentos para trastornos de la coagulación,2019-09-01 11:01:34.014863,revision_interna,compra_y_consumo_a_nivel_naciona,Ministerio de Salud Pública
-"Certificaciones por enfermedad de funcionarios del Hospital Escuela del Litoral ""Galán y Rocha"" y Hospital regional Salto",2019-12-03 20:19:33.649554,no_retenido,certificaciones_por_enfermedad_d,Ministerio de Salud Pública
 Pedido de indices sobre cardiopatías congénitas en niños y niñas,2019-08-14 13:48:49.521223,exitoso,pedido_de_indices_sobre_cardiopa,Ministerio de Salud Pública
+Servicios de enfermería privada habilitados,2020-05-03 22:45:21.326757,exitoso,servicios_de_enfermeria_privada,Ministerio de Salud Pública
+IVE 2019,2020-06-06 15:03:04.953761,revision_interna,ive_2019,Ministerio de Salud Pública
 Información sobre tratamientos gratuitos a personas que presentan anorexia nerviosa,2020-01-25 19:01:35.535891,esperando_respuesta,informacion_sobre_tratamientos_g,Ministerio de Salud Pública
-Servicios de enfermería privada habilitados,2020-05-03 22:45:21.326757,esperando_respuesta,servicios_de_enfermeria_privada,Ministerio de Salud Pública
+Pedidos de acceso información pública Covid-19,2020-07-13 20:51:02.484574,parcialmente_exitoso,pedidos_de_acceso_informacion_pu,Ministerio de Salud Pública
+Solicitudes pedido de informacion en 2019.,2020-06-23 21:11:46.918325,exitoso,solicitudes_pedido_de_informacio,Ministerio de Salud Pública
+Hospitales preparado para el covid-19,2020-06-17 19:33:12.354495,,hospitales_preparado_para_el_cov,Ministerio de Salud Pública
+Estadísticas acerca de la hospitalización psiquiátrica en Uruguay.,2020-08-27 21:29:13.829212,exitoso,estadisticas_acerca_de_la_hospit_2,Ministerio de Salud Pública
+Asistencia en el embarazo y el nacimiento institucional,2020-09-05 14:10:51.361889,exitoso,asistencia_en_el_embarazo_y_el_n,Ministerio de Salud Pública
+Embarazos y nacimientos en adolescencia 2020,2021-01-25 14:28:29.935924,parcialmente_exitoso,embarazos_y_nacimientos_en_adole,Ministerio de Salud Pública
+Institucionalización y Alzheimer,2020-11-08 16:22:53.370689,esperando_respuesta,institucionalizacion_y_alzheimer,Ministerio de Salud Pública
+Cantidad de Certificados de Defunción registrados en el MSP en el marco del Decreto 276/019 entre el 1/11/2020 y el 5/5/2021.,2021-05-11 22:35:33.25544,esperando_respuesta,cantidad_de_certificados_de_defu,Ministerio de Salud Pública
+Se solicita conocer el intercambio por correo electrónico entre Franco Alaggia y Pfizer,2021-05-31 14:05:17.192154,esperando_respuesta,se_solicita_conocer_el_intercamb,Ministerio de Salud Pública
+Alzheimer en Uruguay,2020-10-26 22:44:50.190708,terminado_por_usuario,alzheimer_en_uruguay,Ministerio de Salud Pública
+Alzheimer,2020-10-26 22:49:15.462584,terminado_por_usuario,alzheimer,Ministerio de Salud Pública
+Alzheimer en Uruguay,2020-10-26 22:46:54.70402,terminado_por_usuario,alzheimer_en_uruguay_2,Ministerio de Salud Pública
+"Cantidad de funcionarios públicos vacunados, según organismo de dependencia.",2021-03-08 01:42:11.789516,exitoso,cantidad_de_funcionarios_publico,Ministerio de Salud Pública
+Solicitudes de acceso a la información pública durante el año 2020,2021-06-11 14:20:51.598863,exitoso,solicitudes_de_acceso_a_la_infor,Ministerio de Salud Pública
 Determinación de salario mínimo nacional,2018-03-09 14:22:38.17232,,determinacion_de_salario_minimo,Ministerio de Trabajo y Seguridad Social
 Denuncias por discriminación,2012-10-11 14:28:50.430953,revision_interna,denuncias_por_discriminacin,Ministerio de Trabajo y Seguridad Social
 Contrato a termino y embarazo,2012-10-08 20:01:12.203051,revision_interna,contrato_a_termino_y_embarazo,Ministerio de Trabajo y Seguridad Social
@@ -541,6 +601,7 @@ Denuncias por acoso laboral,2014-01-21 21:26:29.148941,exitoso,denuncias_por_aco
 Sobre inserción laboral de las personas con discapacidad,2013-10-03 02:41:44.655114,rechazado,sobre_insercin_laboral_de_las_pe,Ministerio de Trabajo y Seguridad Social
 Solicitud de información de Asistentes Sociales y/o Lic. en Trabajo Social.,2014-07-06 02:08:14.202612,revision_interna,solicitud_de_informacin_de_asist_6,Ministerio de Trabajo y Seguridad Social
 Métodos estadísticos y algoritmos utilizados para determinación seguro de desempleo,2018-03-09 14:34:10.364318,esperando_respuesta,metodos_estadisticos_y_algoritmo_2,Ministerio de Trabajo y Seguridad Social
+Situación de la mujer en el marco de trabajo Nacional.,2021-06-02 04:41:40.451214,esperando_respuesta,situacion_de_la_mujer_en_el_marc,Ministerio de Trabajo y Seguridad Social
 Proyecto marina Buceo,2012-10-05 16:24:51.695422,revision_interna,proyecto_marina_buceo,Ministerio de Transporte y Obras Públicas
 Información sobre terrenos expropiados para construcción de un Puerto de Aguas Profundas,2017-09-20 02:29:08.587126,esperando_respuesta,informacion_sobre_terrenos_expro_3,Ministerio de Transporte y Obras Públicas
 Listado de empresas multinacionales que tengan contrato con el Estado uruguayo,2015-08-26 14:01:27.598134,esperando_respuesta,listado_de_empresas_multinaciona_12,Ministerio de Transporte y Obras Públicas
@@ -556,6 +617,7 @@ Estado ejecución de llamado licitación publica 8/2013,2013-11-29 15:43:01.0859
 Costo tarjetas transporte,2014-07-01 19:14:12.498218,exitoso,costo_tarjetas_transporte,Ministerio de Transporte y Obras Públicas
 Nombres de las personas que resultaron seleccionadas en el Llamado N° 360/2013 de COORDINADOR DEPARTAMENTAL DEL MTOP,2014-02-11 13:46:55.359819,esperando_respuesta,nombres_de_las_personas_que_resu,Ministerio de Transporte y Obras Públicas
 Lugares públicos accesibles,2014-03-05 19:30:10.088147,esperando_respuesta,lugares_pblicos_accesibles,Ministerio de Transporte y Obras Públicas
+Solicitud de servicios de transporte,2021-03-13 11:18:53.487551,exitoso,solicitud_de_servicios_de_transp,Ministerio de Transporte y Obras Públicas
 Solicitud sobre Turismo y Playas Accesibles en Uruguay,2016-09-10 16:46:31.677098,revision_interna,solicitud_sobre_turismo_y_playas,Ministerio de Turismo y Deporte
 "damnificados por clausura de Sonisol SA, Simply y Grupomundo",2012-10-04 23:39:10.643305,revision_interna,damnificados_por_clausura_de_son,Ministerio de Turismo y Deporte
 CANTIDAD de alumnos,2012-10-07 16:59:44.446003,rechazado,cantidad_de_alumnos,Ministerio de Turismo y Deporte
@@ -595,13 +657,16 @@ Solicito información sobre la ley de viviendas donde especifique la cesion de p
 Stock de viviendas,2016-02-09 22:58:06.529762,esperando_respuesta,stock_de_viviendas,Ministerio de Vivienda Ordenamiento Territorial y Medio Ambiente
 "información sobre los emprendimientos industriales: Cemento Artigas y Planta de Cemento ANCAP, de la ciudad de Minas",2012-10-23 14:23:57.99525,revision_interna,informacin_sobre_los_emprendimie,Ministerio de Vivienda Ordenamiento Territorial y Medio Ambiente
 Solicitud de Acceso a la Información Pública,2018-03-22 19:59:43.336453,esperando_respuesta,solicitud_de_acceso_a_la_informa_3,Ministerio de Vivienda Ordenamiento Territorial y Medio Ambiente
+Solicitud de Acceso a la Información Pública: Dinama,2020-05-28 21:22:18.677924,esperando_respuesta,solicitud_de_acceso_a_la_informa_9,Ministerio de Vivienda Ordenamiento Territorial y Medio Ambiente
 Solicitud de información sobre compra de bancos de Plaza Zabala,2019-05-22 00:48:21.32914,revision_interna,solicitud_de_informacion_sobre_c_4,Municipio B (Montevideo)
 Solicito informacion de todas las denuncias realizadas en ese municipio contra el bar el tranquilo en 21 de septiembre 3000,2016-02-23 15:24:33.627766,no_retenido,solicito_informacion_de_todas_la,Municipio CH (Montevideo)
+Solicitud de información sobre las exposiciones actuales en el MNAV.,2021-06-02 04:25:17.218522,esperando_respuesta,solicitud_de_informacion_sobre_l_3,Museo Nacional de Artes Visuales
 Prima por Antiguedad en Provisoriato,2012-10-03 12:08:13.298927,rechazado,prima_por_antiguedad_en_provisor,Oficina Nacional del Servicio Civil
 Funcionarios en puestos de confianza.,2012-10-04 12:59:51.80786,rechazado,funcionarios_en_puestos_de_confi,Oficina Nacional del Servicio Civil
 Estado jurídico de los Contratados al amparo del Art. 410 en ASSE.,2012-10-17 04:09:26.381441,rechazado,estado_jurdico_de_los_contratado,Oficina Nacional del Servicio Civil
 Nómina de Gerentes  de Empresas públicas y sociedades anónimas con capital estatal.,2012-12-26 17:25:53.836225,no_retenido,nmina_de_gerentes_de_empresas_pb,Oficina Nacional del Servicio Civil
 Estadistica de casamientos según edades,2012-10-04 00:43:30.942858,no_retenido,estadistica_de_casamientos_segn,Oficina Nacional del Servicio Civil
+Adscriptos,2020-07-04 23:51:13.299191,exitoso,adscriptos,Oficina Nacional del Servicio Civil
 "Montos totales anuales gastados por el Estado en Primas por Hogar Constituido, por Matrimonio y por Nacimiento",2018-01-01 13:16:14.546006,exitoso,montos_totales_anuales_gastados,Oficina de Planeamiento y Presupuesto
 Gastos sobre publicidad oficial.,2017-10-17 21:41:09.20519,esperando_respuesta,gastos_sobre_publicidad_oficial,Oficina de Planeamiento y Presupuesto
 Informes Tecnicos,2018-01-12 19:11:10.308992,esperando_respuesta,informes_tecnicos,Oficina de Planeamiento y Presupuesto
@@ -612,7 +677,33 @@ Convenio OPP-MEC-Intendencia de Colonia,2013-07-15 16:21:29.703785,rechazado,con
 Contrato entre Pluna y Leadgate. Remuneraciones a Ficus Capital y CPA Ferrere por asesoramiento.,2013-01-16 11:24:51.926803,por_correo,contrato_entre_pluna_y_leadgate,Pluna Ente Autonomo
 Juicios civiles y penales sobre mala praxis y error de diagnóstico,2018-07-19 23:54:23.711259,exitoso,juicios_civiles_y_penales_sobre,Poder Judicial
 SOLICITUD DE ACCESO A LA INFORMACIÓN Fiscalía Especializada en Delitos de Lesa Humanidad,2019-05-16 20:34:45.995649,esperando_respuesta,solicitud_de_acceso_a_la_informa_5,Poder Judicial
-Solicitud de acceso a la información por causas judicializadas en medio ambiente,2020-04-03 14:18:15.44307,esperando_respuesta,solicitud_de_acceso_a_la_informa_7,Poder Judicial
+Solicitud de acceso a la información por causas judicializadas en medio ambiente,2020-04-03 14:18:15.44307,,solicitud_de_acceso_a_la_informa_7,Poder Judicial
+Investigación de violaciones a los derechos humanos durante el terrorismo de Estado,2016-02-07 15:12:49.565201,,investigacion_de_violaciones_a_l,Presidencia de la República
+Información sobre la residencia presidencial de Punta del Este,2017-06-05 01:43:41.891704,esperando_respuesta,informacion_sobre_la_residencia,Presidencia de la República
+Información sobre la venta de la residencia presidencial de Punta del Este,2017-06-05 01:47:36.177867,esperando_respuesta,informacion_sobre_la_venta_de_la,Presidencia de la República
+Información sobre terrenos expropiados para construcción de puerto de aguas profundas,2017-06-08 23:23:22.793755,,informacion_sobre_terrenos_expro,Presidencia de la República
+Información sobre terrenos expropiados para construcción de puerto de aguas profundas,2017-07-25 21:45:12.932833,no_retenido,informacion_sobre_terrenos_expro_2,Presidencia de la República
+Sueldo del Presidente y Vicepresidente.,2012-10-04 00:33:48.039601,exitoso,sueldo_del_presidente_y_vicepres,Presidencia de la República
+Jubilados porque subio la cuota del Fonasa,2012-10-06 21:26:48.773357,revision_interna,jubilados_porque_subio_la_cuota,Presidencia de la República
+Decretos y resoluciones con beneficios para el sector agropecuario,2012-12-05 17:41:09.667247,exitoso,decretos_y_resoluciones_con_bene,Presidencia de la República
+Solicitud de información de Asistentes Sociales y/o Lic. en Trabajo Social,2014-07-07 20:38:31.191509,exitoso,solicitud_de_informacin_de_asist_12,Presidencia de la República
+Misiones oficiales,2013-03-11 23:01:21.853385,terminado_por_usuario,misiones_oficiales,Presidencia de la República
+Informe sobre gastos en seguridad efectuados en la residencia del presidente,2013-04-22 15:36:19.509719,rechazado,informe_sobre_gastos_en_segurida,Presidencia de la República
+Copia del recibo de sueldo del Presidente,2013-02-13 15:55:08.934426,rechazado,copia_del_recibo_de_sueldo_del_p,Presidencia de la República
+Solicitud de proyecto del Nuevo Estatuto del Funcionario Público.,2012-10-17 03:37:00.309429,exitoso,solicitud_de_proyecto_del_nuevo,Presidencia de la República
+Vehiculos al servicio de Presidencia,2012-10-05 01:28:59.900704,parcialmente_exitoso,vehiculos_al_servicio_de_preside,Presidencia de la República
+Sueldo Presidente,2018-06-14 21:14:17.763497,exitoso,sueldo_presidente,Presidencia de la República
+Información sobre dinero recaudado,2019-03-11 14:11:58.354002,parcialmente_exitoso,informacion_sobre_dinero_recauda,Presidencia de la República
+Informacion sobre un acto publico organizado por Presidencia,2019-03-04 19:50:32.835555,revision_interna,informacion_sobre_un_acto_public,Presidencia de la República
+Comunicación oficial con el presidente de Estados Unidos.,2018-09-28 17:30:56.935693,esperando_respuesta,comunicacion_oficial_con_el_pres,Presidencia de la República
+Mundial 2030,2019-06-12 21:59:43.231794,exitoso,mundial_2030_2,Presidencia de la República
+Contrato de desarrollo de la app Coronavirus UY,2020-06-16 15:46:47.766187,exitoso,contrato_de_desarrollo_de_la_app,Presidencia de la República
+Imagen,2020-07-04 23:39:59.326407,exitoso,imagen,Presidencia de la República
+Solicitud de Información,2020-06-29 22:11:58.291943,esperando_respuesta,solicitud_de_informacion_2,Presidencia de la República
+Solicitud de copia de ingresos a oficina presidencial,2021-05-10 17:46:47.953128,esperando_respuesta,solicitud_de_copia_de_ingresos_a,Presidencia de la República
+Solicitud de información acerca del presupuesto destinado a Educación Pública.,2021-06-02 04:51:18.187155,esperando_respuesta,solicitud_de_informacion_acerca,Presidencia de la República
+Pedidos de acceso información pública Covid-19,2020-07-21 20:23:56.359194,exitoso,pedidos_de_acceso_informacion_pu_2,Presidencia de la República
+Detalles de adjudicación a Genexus del proyecto de agenda de vacunación,2021-04-22 18:10:22.106699,exitoso,detalles_de_adjudicacion_a_genex,Presidencia de la República
 Informacion sobre sueldos,2012-10-03 19:22:53.364572,rechazado,informacion_sobre_sueldos,SODRE
 Gastos de Apoyo a Deportistas,2017-04-04 16:37:12.380526,esperando_respuesta,gastos_de_apoyo_a_deportistas_4,Secretaría Nacional de Deporte
 Financiamiento a deportistas de alto rendimiento,2016-08-18 16:27:18.780385,exitoso,financiamiento_a_deportistas_de,Secretaría Nacional de Deporte
@@ -623,6 +714,7 @@ Período de inscripción en el listado de peritos judiciales.,2012-10-03 23:55:3
 Procesados por disturbios en espectáculos deportivos,2017-04-07 12:18:47.426165,revision_interna,procesados_por_disturbios_en_esp,Suprema Corte de Justicia
 Evaluaciones finales Convocatoria a proyectos 2013,2013-04-29 17:35:18.690712,rechazado,evaluaciones_finales_convocatori,Television Nacional del Uruguay
 Transmisión de deportes por televisión abierta,2017-04-07 12:10:12.466936,,transmision_de_deportes_por_tele,Television Nacional del Uruguay
+Sentencias del Tribunal,2020-06-17 13:35:18.576293,,sentencias_del_tribunal,Tribunal De Lo Contencioso Administrativo
 Resoluciones y observaciones sobre honorarios pagados por el Estado Uruguayo.,2013-02-23 17:57:50.435021,rechazado,resoluciones_y_observaciones_sob,Tribunal de Cuentas
 Información sobre Carboclor y Sol Petróleo,2018-12-10 14:44:11.1698,esperando_respuesta,informacion_sobre_carboclor_y_so,Tribunal de Cuentas
 Solicitud de información de Asistentes Sociales y/o Lic. en Trabajo Social,2014-07-06 02:22:36.675981,esperando_respuesta,solicitud_de_informacin_de_asist_8,UE 030: Dirección Nacional de Sanidad Policial
@@ -643,4 +735,5 @@ Obligación de los órganos de brindar información y sus posibles sanciones.,20
 Informe anual sobre el cumplimiento del derecho de acceso a la información pública,2012-11-22 22:08:48.641032,exitoso,informe_anual_sobre_el_cumplimie,Unidad de Acceso a la Información Pública
 Organismos denunciados por falta de cumplimiento con la ley 18.381,2015-10-27 15:27:01.982052,,organismos_denunciados_por_falta,Unidad de Acceso a la Información Pública
 Presupuesto de la UAIP y salario de funcionarios,2015-10-08 23:13:29.735276,por_correo,presupuesto_de_la_uaip_y_salario,Unidad de Acceso a la Información Pública
+Información sobre pedidos de acceso,2020-07-02 18:16:37.698254,parcialmente_exitoso,informacion_sobre_pedidos_de_acc,Unidad de Acceso a la Información Pública
 Datos personales,2018-04-17 16:02:52.502889,no_retenido,datos_personales,Unidad reguladora y de control de datos personales
