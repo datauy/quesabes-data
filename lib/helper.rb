@@ -2,7 +2,7 @@ require 'json'
 require 'csv'
 
 def connect_to_db
-	return PG.connect( dbname: 'foi_production' )
+	return PG.connect( host: 'localhost', dbname: 'quesabes_production', user: 'quesabes_user_p', password: '_YL.uUG!Y3qbC~km' )
 end
 
 ## estadisticas
@@ -66,9 +66,11 @@ def get_public_bodies(conn)
     }	
 end
 
-def write_to_disk(data, output_path)
-	write_to_json(data, output_path + '.json')
-	write_csv(data, output_path + '.csv')
+def write_to_disk(data, output_path, filename)
+	write_to_json(data, output_path + filename + '.json')
+	write_csv(data, output_path + filename + '.csv')
+	write_to_json(data, 'data/latest/' + filename + '.json')
+        write_csv(data, 'data/latest/' + filename + '.csv')
 end
 
 def write_csv(data, output_path)
